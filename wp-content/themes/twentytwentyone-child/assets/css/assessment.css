@@ -1,0 +1,137 @@
+/* 売却希望時期の確認画面エラー文 */
+#salesDesiredSeason .required {
+	margin-top: 10px;
+}
+
+/* table部分 */
+#baikyakuInput .contactForm__table {
+	width: 842px;
+}
+
+/* td部分 */
+.contactForm__inputs {
+	width: 645px;
+}
+
+/* 売却用のフォームタイトル */
+.contactForm__contTtl {
+	width: 900px;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+/* 物件情報テーブル */
+.contactForm__table--1 {
+	margin-bottom: 50px;
+}
+
+/*
+--- ラジオボタンのラベル
+（希望連絡方法・性別・現在のお住まい・物件種別・相談内容・査定方法・査定物件と同じか否か・売却希望時期） */
+label[for*="-"] {
+	padding: 5px 10px;
+}
+
+/* その他種別フォーム */
+input[name="otherClass"] {
+	width: 200px;
+	margin-left: 10px;
+}
+
+/* 総階数・所在階 */
+input[name*="floor"] {
+	width: 200px;
+	margin-right: 5px;
+}
+
+/* 専有・土地・私道・建物面積フォーム */
+input[name*=Area] {
+	margin-left: 10px;
+}
+
+/* 専有・土地・私道・建物面積フォームの親要素 */
+li[class*=Area] {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* 「㎡」と「坪」のラベルの余白はとる */
+li[class*=Area] label {
+	padding: 0;
+	margin: 0;
+}
+
+/* 生年月日 */
+select[name*="birthday"] {
+	width: 160px;
+	margin-right: 20px;
+}
+
+/* 査定物件と同じか否か */
+.same_different_address {
+	width: 100%;
+	display: flex;
+}
+
+/* 住所系 */
+#zipCode,
+#baikyaku_zipCode {
+	width: 200px;
+	margin: 0 0 10px 71px;
+}
+
+#addressCode1,
+#baikyaku_addressCode1 {
+	margin: 0 0 10px 71px;
+}
+
+#addressStr2,
+#baikyaku_addressStr2 {
+	width: 285px;
+	margin: 0 0 10px 71px;
+}
+
+#addressStr3,
+#baikyaku_addressStr3 {
+	width: 285px;
+	margin: 0 0 10px 103px;
+}
+
+#addressStr4,
+#baikyaku_addressStr4 {
+	width: 285px;
+	margin: 0 0 0 10px;
+}
+
+/* 「確認画面」のエラー文 */
+.contactForm__inputs span.required {
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+/* 単位がついているフォーム */
+input.unit_input {
+	margin-right: 5px;
+	width: 200px;
+}
+
+/* 築年数 */
+select#chikunenYear {
+	margin-right: 10px;
+}
+
+/* 物件詳細の各項目 */
+.contactBkn__item {
+	margin-top: 5px;
+}
+
+/* 向き */
+select#balconyDcnCode {
+	margin-left: 42px;
+}
+
+/* 間取り */
+select#madori {
+	margin-left: 26px;
+}

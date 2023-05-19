@@ -1,0 +1,334 @@
+@charset "utf-8";
+
+/*-------------------------------
+共通
+--------------------------------*/
+a:hover {
+	text-decoration: none;
+	transition: .3s ease;
+}
+
+.staff__moreBt a,
+.customer__moreBt a {
+	color: #333;
+	font-weight: normal;
+}
+
+.section_wrap {
+	margin-bottom: 50px;
+}
+
+/*-------------------------------
+会社写真
+--------------------------------*/
+.companyDetail__wrap {
+	margin-bottom: 50px;
+	display: flex;
+	align-items: flex-start;
+}
+
+/* 会社画像 */
+.companyImg {
+	width: 580px;
+	margin: 0 auto 0 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+[class*="companyImg__item"] {
+	position: relative;
+}
+
+.companyImg__item--1 {
+	width: 580px;
+	height: 350px;
+	background: #f5f5f5;
+}
+
+.companyImg__item--2 {
+	margin: 10px 10px 0 0;
+	width: 285px;
+	height: 235px;
+}
+
+.companyImg__item--3 {
+	margin-top: 10px;
+	width: 285px;
+	height: 235px;
+}
+
+.companyImg__item--2,
+.companyImg__item--3 {
+	background: #f5f5f5;
+	display: flex;
+	align-items: center;
+}
+
+[class*="companyImg__item"] img {
+	margin: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.companyImg__item--1 img {
+	max-width: 580px;
+	max-height: 350px;
+}
+
+.companyImg__item--2 img,
+.companyImg__item--3 img {
+	max-width: 285px;
+	max-height: 235px;
+}
+
+
+/* 画像下のコンバージョン */
+.company_contact {
+	margin: 20px auto 0;
+	width: 100%;
+}
+
+.company_contactList {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.company_contactList li:first-child {
+	margin-right: 15px;
+}
+
+.company_contactList li a {
+	padding: 5px 16px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	display: block;
+	border-radius: 3px;
+	box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.otherContact__tel {
+	margin-bottom: 15px;
+}
+
+/*-------------------------------
+テーブル
+--------------------------------*/
+.companyInfo {
+	width: 470px;
+	margin: 0 0 0 auto;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#companyTableInfo th {
+	width: 100px;
+	text-align: left;
+}
+
+#companyTableInfo th,
+#companyTableInfo td {
+	font-size: 14px;
+	vertical-align: middle;
+	border-bottom: 1px solid #bbb;
+	padding: 10px;
+}
+
+#companyTableInfo {
+	table-layout: fixed;
+}
+
+
+/*-------------------------------
+会社マップ
+--------------------------------*/
+#company-map iframe {
+	border: none;
+}
+
+.company__map {
+	margin-bottom: 30px;
+}
+
+
+/*-------------------------------
+弊社について
+--------------------------------*/
+#contents_inner {
+	padding: 20px;
+	border: 1px solid #ddd;
+}
+
+.aboutcompany_text {
+	font-size: 14px;
+	line-height: 1.8;
+	text-align: justify;
+}
+
+.contents_more {
+	text-align: center;
+}
+
+.contents_more {
+	border: 1px solid #ddd;
+	color: #fff;
+	width: 200px;
+	margin: auto;
+}
+
+.contents_more a {
+	height: 40px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*-------------------------------
+スタッフ紹介
+--------------------------------*/
+.contents_list {
+	margin-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.contents_list li:not(:nth-child(4n)) {
+	margin-right: 20px;
+}
+
+.contents__item {
+	width: 255px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 7px #ddd;
+}
+
+.ui-bd-main {
+	border-color: #1745A3;
+}
+
+.staffCont__link {
+	width: 255px;
+	height: 200px;
+	display: block;
+}
+
+.staffCont__name {
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+/*-------------------------------
+お客様の声
+--------------------------------*/
+
+.customer_category {
+	margin-bottom: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.customerCont__item {
+	width: 255px;
+}
+
+.customerCont__img {
+	position: relative;
+}
+
+.customerCont__link {
+	width: 255px;
+	height: 200px;
+	display: block;
+}
+
+.customerCont__detail {
+	padding: 10px;
+}
+
+.customerCont__comment {
+	height: 40px;
+	font-size: 14px;
+}
+
+.categoryTag__item {
+	font-size: 12px;
+	padding: 2px 5px;
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom: 3px;
+}
+
+
+.contents_item-text {
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: #777;
+}
+
+/* 代表挨拶 */
+.representativeMessage__wrapper {
+	overflow: hidden;
+}
+
+.representativeMessage__image {
+	max-width: 320px;
+	margin: 5px 20px 0 0;
+	float: left;
+}
+
+.representativeMessage__image img {
+	max-width: 100%;
+}
+
+.representativeMessage__text {
+	font-size: 14px;
+	line-height: 1.8;
+	text-align: justify;
+}
+
+
+/*-------------------------------
+ボタン
+--------------------------------*/
+.more__bt {
+	width: 200px;
+	margin: auto;
+}
+
+.more__bt a {
+	height: 40px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ui-btn--role_main:hover {
+	background-color: #143c8d;
+	color: #fff;
+}

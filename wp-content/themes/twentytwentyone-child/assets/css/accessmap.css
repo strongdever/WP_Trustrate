@@ -1,0 +1,125 @@
+@charset "utf-8";
+body {
+    min-width: 100%;
+}
+#container {
+    padding-top: 0!important;
+}
+
+.headInfo,
+.headNav,
+#path,
+.l-footer {
+    display: none;
+}
+.l-header {
+    width: 100%;
+}
+.l-header.is-fixed {
+    position: fixed;
+}
+.header__inner {
+    width: 680px;
+    margin: 10px 0 10px 13px;
+}
+.headLogo {
+    width: 250px;
+}
+.headLogo img {
+    width: 100%;
+}
+
+.pageHead {
+    width: 680px;
+}
+
+#contents {
+    width: 680px;
+    margin: 30px 0 0 13px;
+}
+
+#accessMap {
+    width: 800px;
+    border: none;
+}
+
+.accessMap__logo {
+    margin-bottom: 30px;
+}
+
+#accessMap iframe {
+    height: 600px;
+}
+
+#access-header p {
+    float: left;
+    margin: 0 0 10px 0;
+    padding: 0 0 0 5px;
+}
+#access-header ul {
+    width: 165px;
+    float: right;
+    padding: 0 5px 0 0;
+}
+#access-header li {
+        float: right;
+        text-align: right;
+        margin: 0 0 10px 10px;
+}
+#map {
+    width: 500px;
+    margin: 0 100px 10px 100px;
+    height: 500px;
+    padding: 0px;
+}
+
+#map iframe {
+    border: 1px solid #ccc;
+}
+
+#comp-info {
+    width: 500px;
+    margin: 10px 0 0 10px;
+}
+
+#comp-info p {
+    border-left: 3px solid #2B45A6;
+    padding: 0 0 0 6px;
+    margin: 0 0 5px;
+}
+
+.comp-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+
+.companyInfo {
+    margin-top: 30px;
+}
+.companyInfo__wrap {
+    width: 680px;
+    border-bottom: 1px solid #ddd;
+}
+    .companyInfo__list {
+        border-top: 1px solid #ddd;
+        display: flex;
+    }
+        .companyInfo__item {
+            width: 60px;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 500;
+            background: #f5f5f5;
+            display: flex;
+            align-items: center;
+        }
+        .companyInfo__cont {
+            width: 540px;
+            padding: 10px 20px;
+            font-size: 14px;
+        }
+
+.accessmap_conversion {
+    margin-top: 40px;
+}

@@ -1,0 +1,443 @@
+@charset "utf-8";
+
+* html table {
+    font-size: 12px;
+}
+
+
+/************************************************************** フォント **/
+
+* {
+    font-family: 'Noto Sans JP', Osaka, Helvetica, sans-serif;
+}
+
+/******************************************************* タイプセレクタ **/
+
+body {
+    font-size: 83%;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    min-width: 1200px;
+}
+
+h1, h2, h3, h4, h5, p, ul, ol, li, dl, dt, dd, form ,table{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height:1.4;
+    color:#333333;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+    color: #C00;
+    text-decoration: none;
+}
+
+img {
+    border: none;
+    vertical-align: bottom;
+}
+
+a {
+    color: #07519A;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #CC0000;
+    text-decoration: underline;
+}
+
+/************************************************************ clearfix **/
+
+.clearfix:after {
+    content: url(/images/clearfix.gif);
+    display: block;
+    clear: both;
+    height: 0;
+    border: none;
+    outline: none;
+}
+.clearfix {
+    display: block;
+    border: none;
+    outline: none;
+}
+
+/************************************************************ 共通部分 **/
+
+#container {
+    margin: auto;
+}
+
+/*contents*/
+#contents {
+    width: 1080px;
+    margin: auto;
+    min-height: 300px;
+    padding-bottom: 100px;
+}
+
+#article {
+    width: 700px;
+    float: right;
+}
+
+#aside {
+    float: left;
+    width: 234px;
+}
+
+#path {
+    margin:0 auto 10px;
+    width: 1080px;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#path li {
+    display: inline;
+}
+#path li span {
+    margin: 0 5px;
+}
+#path li:not(:last-child):after {
+    content: ' > ';
+}
+
+#header ul{
+    margin-right: 8px;
+}
+
+/*トップへ戻る*/
+.footer_pagetop {
+    width: 1080px;
+    margin: 0 auto;
+}
+#backtop {
+    width: 55px;
+    height: 55px;
+    margin-left: 1080px;
+    bottom: 30px;
+    outline: 0 none;
+    position: fixed;
+    z-index: 10;
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 500px;
+}
+#backtop .icn_arrow {
+    padding-top: 8px;
+    font-size: 18px;
+}
+
+/*印刷時はヘッダ固定*/
+@media print {
+  #service{
+        position: static!important;
+  }
+}
+
+#fixed_bottom_searchbar{
+    display: none;
+    width: 100%;
+    z-index: 9999;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(76, 76, 76, 0.7);
+    text-align: center;
+    left: 0;
+}
+
+.search_button_fixedfooter{
+    font-size: 20px;
+    padding: 0px 70px;
+    line-height: 50px;
+    background: linear-gradient(to top, #ddd, #FFF);
+    border-radius: 9px;
+    display: inline-block;
+    margin: 13px 0;
+    color: black;
+    font-family: Meiryo, sans-serif;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px;
+}
+.search_button_fixedfooter:active {
+    box-shadow: 0 0;
+    transform: translateY(2px);
+}
+
+#annualIncome p {
+    display: inline-block;
+}
+
+.footerLinks {
+    max-width: 542px;
+}
+
+.footerSitemapDefaultLayout {
+    max-width: 130px;
+}
+
+.footerCenterLinksLayoutTwo {
+    max-width: 181px;
+}
+
+.footerCenterLinksLayoutThree {
+    max-width: 114px;
+}
+
+.footerCompanyData {
+    max-width: 394px;
+}
+
+
+
+/* pageHead */
+.pageHead {
+    width: 1080px;
+    margin: 0 auto 30px;
+    position: relative;
+}
+.pageHead::before {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background: #ddd;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+    .pageHead__ttl {
+        padding-bottom: 5px;
+        font-size: 28px;
+        font-weight: bold;
+        border-bottom-width: 5px;
+        border-bottom-style: solid;
+        display: inline-block;
+        position: relative;
+    }
+
+/* contTtl */
+[class*="__contTtl"] {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+[class*="__moreBt"] {
+    width: 250px;
+    margin: 0 auto;
+}
+    [class*="__moreBt"] a {
+        height: 50px;
+        padding: 0 0 3px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        border-color: #ddd;
+        border-width: 1px;
+        border-style: solid;
+        text-decoration: none;
+        border-radius: 3px;
+        box-shadow: 0 1px 4px rgb(32 33 36 / 15%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    [class*="__moreBt"] a:hover {
+        box-shadow: none;
+    }
+
+/* default hover */
+.hoverDefault {
+    transition: .3s ease;
+}
+.hoverDefault:hover {
+    opacity: .7;
+    text-decoration: none;
+}
+
+/* pager */
+.pager {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+.pager__num {
+    font-size: 14px;
+    margin-right: 20px;
+}
+    .pager__num--point {
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+.pager__wrap {
+    display: flex;
+    align-items: center;
+}
+.pager__list {
+    display: flex;
+    align-items: center;
+}
+[class*="pager__bt"] {
+    min-width: 15px;
+    padding: 0 5px;
+    text-align: center;
+}
+.pager__bt:not(:first-child) {
+    border-left: 1px solid #ccc;
+}
+.pager__bt--prev {
+    border-right: 1px solid #ccc;
+}
+.pager__bt--next {
+    border-left: 1px solid #ccc;
+}
+
+/* headCategory */
+.headCategory {
+    margin-bottom: 20px;
+    display: flex;
+}
+.headCategory__item {
+    padding: 5px 15px;
+}
+.headCategory__item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* categoryName */
+.categoryName {
+    padding: 3px 5px;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+/* 長い名称のときの対応 */
+.js-boxLink-tag {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 220px;
+    display: inline-block;
+}
+.categoryName a {
+    font-size: 13px;
+    color: #fff;
+}
+
+.category__wrap:not(:first-child) {
+    margin-top: 30px;
+}
+
+/* tagCont*/
+.tagCont {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tagCont__item {
+    margin: 0 5px 5px 0;
+}
+.tagCont__item a {
+    padding: 3px 8px 5px;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* slick-dots */
+.slick-dots li {
+    cursor: pointer;
+}
+
+/* contact */
+.otherContact__catch {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.otherContact__list {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+    [class*="otherContact__item"] {
+        width: 300px;
+    }
+    .otherContact__item--satei {
+        margin-right: 20px;
+    }
+        [class*="otherContact__item"] a {
+            height: 60px;
+            line-height: 60px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+            text-align: center;
+            display: block;
+            border-radius: 3px;
+            box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+        }
+            [class*="otherContact__icn"] {
+                margin-right: 10px;
+            }
+            .otherContact__icn--tel {
+                font-size: 24px;
+                margin-right: 5px;
+            }
+    .otherContact__tel {
+        margin-bottom: 5px;
+        font-size: 30px;
+        font-weight: bold;
+        color: #000;
+        text-align: center;
+        line-height: 1.2;
+    }
+    .otherContact__company {
+        display: flex;
+        justify-content: center;
+    }
+        .otherContact__info {
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+        }
+        .otherContact__info:first-child {
+            margin-right: 15px;
+        }
+            .otherContact__name {
+                padding: 0 5px 1px;
+                background: #e9e9e9;
+            }
+            .otherContact__text {
+                margin-left: 3px;
+            }
+.conversion_bottomMargin {
+    margin-bottom: 40px;
+}
+
+.conversion_topMargin {
+    margin-top: 40px;
+}
+
+.conversion_topBottomMargin {
+    margin: 40px 0;
+}

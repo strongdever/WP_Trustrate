@@ -1,0 +1,303 @@
+#contents {
+	margin: 20px auto 0;
+}
+
+/* 必須項目カウンター */
+#remain {
+	background-color: #555;
+	border-radius: 5px;
+	padding: 5px 10px;
+	position: fixed;
+	right: 130px;
+	text-align: center;
+	z-index: 1;
+}
+
+#remain p {
+	color: #fff;
+}
+
+/* 「確認画面へお進み下さい」 */
+#remain p.submit_ok {
+	padding: 10px;
+}
+
+/* カウンターの数字部分 */
+#remain .emphasis {
+	font-size: 40px;
+	letter-spacing: 3px;
+}
+
+/* 進捗状態 */
+.contactStatus {
+	display: flex;
+	justify-content: flex-end;
+	position: absolute;
+	top: -87px;
+	right: 0;
+}
+
+[class*="contactStatus__item"] {
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #666;
+	background: #eee;
+	display: flex;
+	position: relative;
+}
+
+[class*="contactStatus__item"]:not(:last-child) {
+	margin-right: 20px;
+}
+
+[class*="contactStatus__item"]:not(:last-child)::after {
+	content: "";
+	width: 0;
+	height: 0;
+	margin: auto;
+	border-style: solid;
+	border-width: 5px 0 5px 7px;
+	border-color: transparent transparent transparent #000;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: -15px;
+	bottom: 0;
+}
+
+[class*="contactStatus__item"].is-active {
+	color: #fff;
+}
+
+/*
+------- フォーム部分 start */
+
+/* フォームを囲う親要素部分 */
+.input-contact {
+	position: relative;
+}
+
+/* table部分 */
+[class*="contactForm__table"] {
+	width: 800px;
+	margin: auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* tr部分 */
+.contactForm__item {
+	padding: 10px 0;
+	display: flex;
+}
+
+/* 確認画面時のtr */
+.contactForm__item.confirmClass {
+	padding: 3px;
+}
+
+.contactForm__item:not(:last-child) {
+	border-bottom: 1px solid #eee;
+}
+
+/* th部分 */
+.contactForm__title {
+	width: 200px;
+	min-height: 50px;
+	text-align: left;
+	display: flex;
+	align-items: center;
+}
+
+/* 必須・任意 */
+[class*="inquiry__type"] {
+	width: 35px;
+	height: 22px;
+	margin-right: 10px;
+	font-size: 12px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* 必須 */
+.inquiry__type--required {
+	background: #f02727;
+}
+
+/* 任意 */
+.inquiry__type--discretion {
+	background: #79b2d9;
+}
+
+/* 項目名 */
+.item-name {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+/* td部分 */
+.contactForm__inputs {
+	width: 578px;
+	min-height: 50px;
+	padding: 0 10px;
+	font-size: 16px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+/* 確認画面の住所系 */
+.contactForm__inputs.confirmAddress div {
+	display: block;
+	width: 100%;
+	padding: 5px 0;
+}
+
+/* エラー文 */
+.contactForm__inputs span {
+	color: red;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+label {
+	display: inline-block;
+}
+
+label:not(:first-child) {
+	margin-left: 10px;
+}
+
+select {
+	width: 200px;
+	height: 45px;
+	border: 1px solid #bfbfbf;
+	border-radius: 3px;
+	font-size: 16px;
+	color: #333;
+}
+
+textarea {
+	width: 100%;
+	height: 150px;
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #bfbfbf;
+	border-radius: 3px;
+	box-sizing: border-box;
+	font-size: 16px;
+	color: #333;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+	background-color: #fff;
+	border: 1px solid #bfbfbf;
+	border-radius: 3px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	font-size: 16px;
+	color: #333;
+}
+
+input[type="text"] {
+	width: 370px;
+	height: 45px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	margin-right: 8px;
+	vertical-align: -4px;
+	color: #333;
+}
+
+/* --- プレースホルダーの色 --- */
+input::placeholder,
+textarea::placeholder {
+	color: #aaa;
+}
+
+/* IE */
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+	color: #aaa;
+}
+
+/* Edge */
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+	color: #aaa;
+}
+
+/* --- プレースホルダーの色 --- */
+
+/*
+------- フォーム部分 end */
+
+/* 注釈 */
+.annotation {
+	width: 770px;
+	margin: 30px auto;
+	padding: 10px 15px;
+	font-size: 12px;
+	color: #000;
+	background: #fee1e1;
+}
+
+/* 確認画面へのボタン */
+.contactForm__bt {
+	width: 300px;
+	height: 60px;
+	margin: 0 auto;
+	border: none;
+	font-size: 20px;
+	color: #fff;
+	background: #ddd;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* 利用規約等 */
+.contactForm__agreement {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+/* 修正する */
+.return__bt {
+	width: 100px;
+	margin: 0 auto 15px;
+}
+
+.return__link {
+	height: 30px;
+	font-size: 14px;
+	color: #000;
+	border: 1px solid #ddd;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* メールが届かないとき~~~ */
+.notes {
+	width: 758px;
+	margin: 50px auto 0;
+	padding: 20px;
+	font-size: 12px;
+	color: #000;
+	border: 1px solid #ddd;
+}
+
+/* jsでhiddenのつけ外しがあるので、importantをつける */
+.hidden {
+	display: none !important;
+}

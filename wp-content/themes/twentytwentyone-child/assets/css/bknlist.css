@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+/************************************************************ 共通部分 **/
+/* 物件情報全体を囲う親要素 */
+.bknDataWrapper {
+	margin: 20px 0;
+	padding: 20px;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0 0 7px #ddd;
+}
+
+.bknInformation__importantInfo {
+	display: flex;
+	align-items: center;
+}
+
+/* 物件名 */
+.bknName {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* 価格変更ラベル */
+.bkn__changePriceLabel {
+	padding: 5px;
+	margin-left: 30px;
+	border: 1px solid #ddd;
+	color: red;
+}
+
+/* 物件情報（画像 + 物件情報)を囲う要素 */
+.bknInformation {
+	display: flex;
+}
+
+/* 物件画像 */
+.bknInformation__image {
+	width: 288px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #f7f7f7;
+}
+
+.bknInformation__image img {
+	max-width: 100%;
+	max-height: 310px;
+}
+
+.bknInformation__wrapper {
+	padding-left: 20px;
+}
+
+.bknInformation__part1 {
+	width: 730px;
+	margin: 8px 0;
+}
+
+/* 項目名 */
+.bknInformation__list {
+	display: flex;
+	border-bottom: 1px solid #bbb;
+}
+
+.bknInformation__address {
+	border-top: 1px solid #bbb;
+}
+
+.bknInformation__term {
+	width: 80px;
+	padding: 10px;
+	font-size: 14px;
+	background: #f5f5f5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bknInformation__desc {
+	width: 590px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.bknInformation__shortItem .bknInformation__desc {
+	width: 123px;
+	display: flex;
+	align-items: center;
+}
+
+.bknInformation__part2 table {
+	width: 100%;
+	text-align: center;
+}
+
+.bknInformation__part2 th {
+	color: #fff;
+	font-size: 14px;
+	font-weight: normal;
+	background: #777;
+}
+
+.bknInformation__price {
+	color: #f02727;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* 詳細ボタン */
+.bknDataWrapper__moreBt {
+	width: 250px;
+	margin: 10px 0 0;
+	float: right;
+}
+
+.bknDataWrapper__moreBt a {
+	height: 40px;
+}
+
+/* セールスポイント、またはスタッフコメント */
+.bknInformation__point {
+	display: flex;
+	margin-top: 10px;
+	padding: 15px;
+	background: #f7f7f7;
+}
+
+/* ラベル */
+.bknInformation__point--text {
+	display: inline-block;
+	padding: 2px 8px;
+	margin-bottom: 5px;
+	color: #fff;
+}
+
+/* スタッフ画像 */
+.bknInformation__Comment--image {
+	width: 130px;
+	margin-right: 10px;
+}
+
+.bknInformation__Comment--image img {
+	width: 100%;
+}
+
+.bknInformation__Comment--detail {
+	width: 100%;
+}

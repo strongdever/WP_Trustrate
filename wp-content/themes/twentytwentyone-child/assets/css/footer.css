@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+/* outline
+------------------------------*/
+.l-footer * {
+    color: #fff;
+}
+.l-footer a:hover {
+    color: #fff;
+}
+.footer__wrap {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer__link
+------------------------------*/
+.footer__link_wrap {
+    display: flex;
+    width: 63%;
+}
+    .footer__link:not(:first-child) {
+        margin-left: 50px;
+    }
+ul.footer__link {
+    width: 18%;
+    max-width: 25%;
+}
+
+.footer__item {
+    margin-bottom: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.footer__item a {
+    padding-left: 15px;
+    position: relative;
+    display: block;
+}
+    .footer__item a:before {
+        content: '';
+        display: block;
+        width: 6px;
+        height: 6px;
+        margin: auto;
+        border-top: 1px solid #fff;
+        border-right: 1px solid #fff;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        -webkit-transform: rotateZ(45deg);
+        -moz-transform: rotateZ(45deg);
+        transform: rotateZ(45deg);
+    }
+
+/* footCompany
+------------------------------*/
+.footCompany {
+    width: 37%;
+}
+.footCompany__name {
+    font-size: 20px;
+    font-weight: bold;
+}
+.footCompany__address {
+    margin: 8px 0;
+}
+.footCompany__contact {
+    text-align: center;
+    margin-top: 15px;
+}
+.footCompany__tel {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 5px;
+}
+    .footCompany__tel .ui_icon-phone {
+        font-size: 20px;
+        vertical-align: 0px;
+    }
+    .footCompany__tel--num {
+        font-size: 22px;
+    }
+    .footCompany__bt a {
+        width: 220px;
+        height: 46px;
+        font-size: 17px;
+        line-height: 44px;
+        box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+        border-radius: 3px;
+        display: block;
+    }
+
+
+/* footBottomLink
+------------------------------*/
+.footer__bottom {
+    border-top: solid 1px rgb(255 255 255 / 30%);
+}
+    .footer__bottom_inner {
+        width: 1080px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+.footBottomLink {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.footBottomLink__item:not(:first-child) {
+    margin-left: 30px;
+}
+.footBottomLink__item a {
+    font-size: 13px;
+}
+
+/* copyright
+------------------------------*/
+.footer__copyright {}
+
+/* floatbanner
+------------------------------*/
+.right_side_float_menu {
+    position: fixed;
+    bottom: 100px;
+    right: 0px;
+}
+
+.oc-footer__copyright {
+    border: none;
+    display: flex;
+    align-items: flex-end;
+}

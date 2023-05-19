@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+
+.bottomTag__wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category_taglist--category {
+    margin-bottom: 50px;
+}

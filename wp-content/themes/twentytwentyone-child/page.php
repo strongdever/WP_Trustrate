@@ -1,20 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Orb</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="shortcut icon" href="<?php echo get_theme_file_uri(); ?>/assets/images/logo/favicon.png">
-    <link rel="icon" type="image/png" href="<?php echo get_theme_file_uri(); ?>/assets/images/logo/favicon.png">
-    <link rel="apple-touch-icon" type="image/png" href="<?php echo get_theme_file_uri(); ?>/assets/images/logo/favicon.png">
-	<link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/simplePagination.css">
-	<link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-	<script src="<?php echo get_theme_file_uri(); ?>/assets/js/simplePagination.js"></script>
-	<script src="<?php echo get_theme_file_uri(); ?>/assets/js/custom.js"></script>    
-
-
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="content-script-Type" content="text/javascript" />
     <meta http-equiv="content-style-type" content="text/css" />
@@ -26,6 +12,9 @@
     <meta name="og:description" content="草津不動産売却テラスでは、草津市・栗東市・守山市で不動産売却・買取を承っています。住宅ローン滞納に伴う任意売却、遺産分割協議を伴う相続問題、相続した空き家問題、離婚によるペアローン問題など是非お問い合わせください。" />
     <meta name="description" content="草津不動産売却テラスでは、草津市・栗東市・守山市で不動産売却・買取を承っています。住宅ローン滞納に伴う任意売却、遺産分割協議を伴う相続問題、相続した空き家問題、離婚によるペアローン問題など是非お問い合わせください。" />
     <title>草津市・栗東市・守山市の不動産売却｜草津不動産売却テラス</title>
+	<link rel="shortcut icon" href="<?php echo get_theme_file_uri(); ?>/assets/images/favicon.png">
+    <link rel="icon" type="image/png" href="<?php echo get_theme_file_uri(); ?>/assets/images/favicon.png">
+    <link rel="apple-touch-icon" type="image/png" href="<?php echo get_theme_file_uri(); ?>/assets/images/favicon.png">
     <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/common/common.css" media="all" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" media="all" type="text/css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&amp;display=swap" media="all" type="text/css" />
@@ -36,11 +25,24 @@
     <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/style.css" media="all" type="text/css" />
     <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/slick.css" media="all" type="text/css" />
     <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/jquery.mCustomScrollbar.css" media="all" type="text/css" />
+    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/accessmap.css" media="" type="text/css" />
+    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/jquery.fancybox.css" media="all" type="text/css" />
+    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/company.css" media="all" type="text/css" />
+    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/bknlist.css" media="" type="text/css" />
+    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/cms.css" media="all" type="text/css" />
+    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/categorytaglist.css" media="all" type="text/css" />
+    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/validationEngine.jquery.css" media="all" type="text/css" />
+    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/contact_common.css" media="all" type="text/css" />
+    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/assessment.css" media="all" type="text/css" />
+    <link rel="canonical" href="https://www.trustrate.co.jp/" />
     
     <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/jquery-1.8.2.min.js"></script>
     <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/imgLiquid-min.js"></script>
     <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/common_library.js"></script>
     <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/jquerypngfix.js"></script>
+    <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/staff_detail.js"></script> 
+    <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/jquery.validationEngine.js"></script>
+    <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/jquery.validationEngine-ja.js"></script>  
     <script type="text/javascript">
         (function(w, d, s, l, i) {
             w[l] = w[l] || [];

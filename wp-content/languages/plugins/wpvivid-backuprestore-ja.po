@@ -1,0 +1,2597 @@
+# Translation of Plugins - Migration, Backup, Staging &#8211; WPvivid - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Migration, Backup, Staging &#8211; WPvivid - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-26 01:32:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Migration, Backup, Staging &#8211; WPvivid - Stable (latest release)\n"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1074
+msgid ""
+"<div class=\"notice notice-warning inline\" style=\"margin: 10px 0 0 0;\"><p><strong>Warning:</strong> We detected that you use Jet Engine plugin on this site, \n"
+"                                                        it may have compatibility issues with our plugin, which can result in an inaccuracy of the scan result, \n"
+"                                                        so we recommend not using this feature yet.\n"
+"                                                          </p></div>"
+msgstr ""
+"<div class=\"notice notice-warning inline\" style=\"margin: 10px 0 0 0;\"><p><strong>警告:</strong> このサイトで Jet Engine プラグインを検出しました。 \n"
+"                                                        プラグインで互換性の問題が発生し、不正確なスキャン結果が生じる可能性があります。 \n"
+"                                                        この機能をまだ使用しないことを推奨します。\n"
+"                                                          </p></div>"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1139
+msgid "Are you sure to remove this backup? This backup will be deleted permanently."
+msgstr "本当にこのバックアップを削除しますか ? このバックアップは永久に失われます。"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1191
+msgid "Are you sure to remove the selected backups? These backups will be deleted permanently."
+msgstr "本当に選択したバックアップを削除しますか ? これらのバックアップは永久に失われます。"
+
+#: includes/class-wpvivid.php:6412
+msgid "Send backups to remote storage (You can choose whether to keep the backup in localhost after it is uploaded to cloud storage in Settings.)"
+msgstr "バックアップをリモートストレージに送信 (クラウドストレージにアップロードした後、バックアップをローカルホストに保持するかどうかは、「設定」で選択できます)"
+
+#: includes/customclass/class-wpvivid-dropbox.php:561
+#: includes/customclass/class-wpvivid-google-drive.php:287
+#: includes/customclass/class-wpvivid-one-drive.php:271
+msgid "Add Now"
+msgstr "今すぐ追加"
+
+#: includes/customclass/class-wpvivid-one-drive.php:393
+msgid "To add OneDrive, please get Microsoft authentication first. Once authenticated, you will be redirected to this page, then you can add storage information and save it"
+msgstr "OneDrive を追加するには、まず Microsoft の認証を取得してください。認証すると、このページにリダイレクトされますので、ストレージ情報を追加して保存してください"
+
+#: includes/customclass/class-wpvivid-google-drive.php:409
+msgid "To add Google Drive, please get Google authentication first. Once authenticated, you will be redirected to this page, then you can add storage information and save it"
+msgstr "Google ドライブを追加するには、まず Google の認証を取得してください。認証すると、このページにリダイレクトされますので、ストレージ情報を追加して保存してください"
+
+#: includes/customclass/class-wpvivid-dropbox.php:717
+msgid "To add Dropbox, please get Dropbox authentication first. Once authenticated, you will be redirected to this page, then you can add storage information and save it"
+msgstr "Dropbox を追加するには、まず Dropbox の認証を取得してください。認証すると、このページにリダイレクトされますので、ストレージ情報を追加して保存してください"
+
+#: includes/customclass/class-wpvivid-google-drive.php:421
+msgid "Click to get Google authentication."
+msgstr "クリックして Google の認証を取得する。"
+
+#: includes/customclass/class-wpvivid-one-drive.php:405
+msgid "Click to get Microsoft authentication."
+msgstr "クリックして Microsoft の認証を取得する。"
+
+#: includes/customclass/class-wpvivid-dropbox.php:692
+msgid "Click to get Dropbox authentication."
+msgstr "クリックして Dropbox の認証を取得する。"
+
+#: includes/class-wpvivid.php:5422 includes/class-wpvivid.php:5427
+msgid "The value of 'Delay Between Requests' can't be empty."
+msgstr "「リクエスト間の遅延」の値は空にできません。"
+
+#: includes/class-wpvivid.php:5400 includes/class-wpvivid.php:5405
+msgid "The value of 'Staging Memory Limit' can't be empty."
+msgstr "「ステージングメモリ制限」の値は空にできません。"
+
+#: includes/class-wpvivid.php:5378 includes/class-wpvivid.php:5383
+msgid "The value of 'File Copy Count' can't be empty."
+msgstr "「ファイルコピーカウント」の値は空にできません。"
+
+#: includes/class-wpvivid.php:5345 includes/class-wpvivid.php:5350
+msgid "The value of 'Media Files Quantity Processed Per Request' can't be empty."
+msgstr "リクエスト毎に処理するメディアファイル数」の値は空にできません。"
+
+#: includes/class-wpvivid.php:5334 includes/class-wpvivid.php:5339
+msgid "The value of 'Posts Quantity Processed Per Request' can't be empty."
+msgstr "「リクエスト毎に処理する投稿の数」の値は空にできません。"
+
+#: includes/class-wpvivid.php:5295 includes/class-wpvivid.php:5300
+msgid "The value of 'Chunk Size' can't be empty."
+msgstr "「チャンクサイズ」の値は空にできません。"
+
+#: includes/class-wpvivid.php:5284 includes/class-wpvivid.php:5289
+msgid "The value of 'PHP memory limit for restoration' can't be empty."
+msgstr "「リストア用の PHP メモリ制限」の値は空にできません。"
+
+#: includes/class-wpvivid.php:5273 includes/class-wpvivid.php:5278
+msgid "The value of 'PHP memory limit for backup' can't be empty."
+msgstr "「バックアップ用の PHP メモリ制限」の値は空にできません。"
+
+#: includes/class-wpvivid.php:5411 includes/class-wpvivid.php:5416
+msgid "The value of 'PHP Scripts Execution Timeout' can't be empty."
+msgstr "「PHP スクリプト実行タイムアウト」の値は空にできません。"
+
+#: includes/class-wpvivid.php:5367 includes/class-wpvivid.php:5372
+msgid "The value of 'DB Replace Count' can't be empty."
+msgstr "「DB 置換カウント」の値は空にできません。"
+
+#: includes/class-wpvivid.php:5356 includes/class-wpvivid.php:5361
+msgid "The value of 'DB Copy Count' can't be empty."
+msgstr "「DB コピーカウント」の値は空にできません。"
+
+#: includes/class-wpvivid.php:5248 includes/class-wpvivid.php:5255
+msgid "The value of 'PHP scripts execution timeout for backup' can't be empty."
+msgstr "「バックアップ用の PHP スクリプト実行タイムアウト」の値は空にできません。"
+
+#: includes/class-wpvivid.php:5221 includes/class-wpvivid.php:5229
+msgid "The value of 'Compress file every' can't be empty."
+msgstr "「圧縮ファイルの単位」の値は空にできません。"
+
+#: includes/customclass/class-wpvivid-google-drive.php:190
+msgid "<div class=\"notice notice-error\"><p>"
+msgstr "<div class=\"notice notice-error\"><p>"
+
+#: includes/customclass/class-wpvivid-dropbox.php:566
+#: includes/customclass/class-wpvivid-google-drive.php:292
+#: includes/customclass/class-wpvivid-one-drive.php:276
+msgid "Click the button to add the storage."
+msgstr "ストレージを追加するにはボタンをクリックしてください。"
+
+#: includes/class-wpvivid.php:5262 includes/class-wpvivid.php:5267
+msgid "The value of 'PHP scripts execution timeout for restore' can't be empty."
+msgstr "「復元用の PHP スクリプト実行タイムアウト」の値は空にできません。"
+
+#: includes/class-wpvivid-export-import.php:1565
+msgid "Back"
+msgstr "戻る"
+
+#: admin/class-wpvivid-admin.php:805
+msgid "Because Dropbox has upgraded their API on September 30, 2021, the new API is no longer compatible with the previous app's settings. Please re-add your Dropbox storage to ensure that it works properly."
+msgstr "2021年9月30日に Dropbox が API をバージョンアップし、新しい API は以前のアプリの設定と互換性がなくなりました。正しい動作のために、Dropbox のストレージを再度追加してください。"
+
+#: admin/class-wpvivid-admin.php:868
+msgid "In order to execute the scheduled backups properly, please set the DISABLE_WP_CRON constant to false. If you are using an external cron system, simply click 'X' to dismiss this message."
+msgstr "スケジュールバックアップを正しく実行するために、DISABLE_WP_CRON 定数をfalse に設定してください。外部の cron システムを使用している場合は、「X」をクリックして、このメッセージを非表示にしてください。"
+
+#: includes/class-wpvivid-migrate.php:1141
+msgid "<strong>Tips: </strong>Some web hosts may restrict the connection between the two sites, so you may get a 403 error or unstable connection issue when performing auto migration. In that case, it is recommended to manually transfer the site."
+msgstr "<strong>ヒント: </strong>ウェブホストによっては、2つのサイト間の接続を制限している場合があるため、自動移行を行う際に403エラーや接続が不安定な問題が発生する場合があります。その場合は、手動でサイトを移行することをお勧めします。"
+
+#: admin/class-wpvivid-admin.php:916
+msgid "We detected that you are using a lower version of %s Pro, please update it to 2.0.23 or higher to ensure backing up to Google Drive works properly."
+msgstr "古いバージョンの %s Pro を使用していることが検出されました。Google Drive へのバックアップが正しく機能するように、2.0.23以降にアップデートしてください。"
+
+#: includes/staging/class-wpvivid-staging-sites-list.php:437
+#: includes/staging/class-wpvivid-staging-sites-list.php:856
+msgid "Select %s"
+msgstr "%sを選択"
+
+#: includes/staging/class-wpvivid-staging.php:255
+#: includes/staging/class-wpvivid-staging.php:268
+msgid "Staging"
+msgstr "ステージング"
+
+#: includes/staging/class-wpvivid-staging.php:100
+msgid "Create A Fresh WordPress Install"
+msgstr "新しいWordpressインストールを生成"
+
+#: includes/staging/class-wpvivid-staging.php:99
+msgid "Create A Staging Site"
+msgstr "ステージングサイトを生成"
+
+#: includes/staging/class-wpvivid-staging-setting.php:164
+#: includes/staging/class-wpvivid-staging-setting.php:343
+msgid "<option selected=\"selected\" value=\""
+msgstr "<option selected=\"selected\" value=\""
+
+#: includes/staging/class-wpvivid-staging-setting.php:167
+#: includes/staging/class-wpvivid-staging-setting.php:346
+msgid "<option value=\""
+msgstr "<option value=\""
+
+#: includes/staging/class-wpvivid-staging-ui-display.php:1302
+msgid "WPvivid Plugins - Staging"
+msgstr "WPvivid プラグイン - ステージング"
+
+#: includes/staging/class-wpvivid-staging-ui-display.php:1256
+msgid ""
+"<div class=\"notice notice-warning inline\"><p><strong>Warning:</strong> An inconsistency was detected between the site url, home url of the database and the actual website url. \n"
+"                                        This can cause inappropriate staging site url issues. Please change the site url and home url in the Options table of the database to the actual \n"
+"                                        url of your website. For example, if the site url and home url of the database is http://test.com, but the actual url of your website is https://test.com. \n"
+"                                        You’ll need to change the http to https.\n"
+"                                                                  </p></div>"
+msgstr ""
+"<div class=\"notice notice-warning inline\"><p><strong>警告:</strong> 「サイトアドレス (URL)」および「WordPress アドレス (URL)」と実際のウェブサイト URL の間に不一致が検出されました。\n"
+"                                        これは、不適切なステージングサイトの URL の問題を引き起こす可能性があります。\n"
+"                                        「設定」 > 「一般」画面で、「サイトアドレス (URL)」と「WordPress アドレス (URL)」を実際の URL に変更してください。\n"
+"                                        例えば、設定画面の URL が http://test.com で、実際のサイト URL が https://test.com の場合は http を https に変更する必要があります。\n"
+"                                                                  </p></div>"
+
+#: includes/staging/class-wpvivid-staging-sites-list.php:404
+#: includes/staging/class-wpvivid-staging-sites-list.php:823
+msgid "Subsite Description"
+msgstr "サブサイトの説明"
+
+#: includes/staging/class-wpvivid-staging-sites-list.php:403
+#: includes/staging/class-wpvivid-staging-sites-list.php:822
+msgid "Subsite Title"
+msgstr "サブサイトのタイトル"
+
+#: includes/staging/class-wpvivid-staging-sites-list.php:402
+msgid "Subsite Tables/Folders"
+msgstr "サブサイトのテーブル / フォルダー"
+
+#: includes/staging/class-wpvivid-staging-sites-list.php:401
+#: includes/staging/class-wpvivid-staging-sites-list.php:820
+msgid "Subsite URL"
+msgstr "サブサイトの URL"
+
+#: includes/staging/class-wpvivid-staging-setting.php:199
+#: includes/staging/class-wpvivid-staging-setting.php:378
+msgid "Keep staging sites when deleting the plugin"
+msgstr "プラグインを削除してもステージングサイトを保持"
+
+#: includes/staging/class-wpvivid-staging-setting.php:188
+#: includes/staging/class-wpvivid-staging-setting.php:367
+msgid "Keep permalink when transferring website"
+msgstr "サイトの転送時にパーマリンクを保持"
+
+#: includes/staging/class-wpvivid-staging-setting.php:177
+#: includes/staging/class-wpvivid-staging-setting.php:356
+msgid "Anyone can visit the staging site"
+msgstr "ステージングサイトを誰でもアクセス可"
+
+#: includes/staging/class-wpvivid-staging-setting.php:171
+#: includes/staging/class-wpvivid-staging-setting.php:350
+msgid " times when encountering a time-out error"
+msgstr " タイムアウトエラーが発生した際の回数"
+
+#: includes/staging/class-wpvivid-staging-setting.php:155
+#: includes/staging/class-wpvivid-staging-setting.php:334
+msgid "A lower value will help speed up the process of creating a staging site. However, if your server has a limit on the number of requests, a higher value is recommended."
+msgstr "低い値を設定すると、ステージングサイトの作成が速くなります。しかし、サーバーにリクエスト数の制限がある場合は、より高い値を推奨します。"
+
+#: includes/staging/class-wpvivid-staging-setting.php:149
+#: includes/staging/class-wpvivid-staging-setting.php:328
+msgid "Delay Between Requests"
+msgstr "リクエスト間の遅延"
+
+#: includes/staging/class-wpvivid-staging-setting.php:138
+#: includes/staging/class-wpvivid-staging-setting.php:317
+msgid "PHP Script Execution Timeout"
+msgstr "PHP スクリプト実行タイムアウト"
+
+#: includes/staging/class-wpvivid-staging-setting.php:133
+#: includes/staging/class-wpvivid-staging-setting.php:312
+msgid ""
+"Adjust this value to apply for a temporary PHP memory limit for the plugin to create a staging site. \n"
+"                We set this value to 256M by default. Increase the value if you encounter a memory exhausted error. Note: some \n"
+"                web hosting providers may not support this."
+msgstr ""
+"この値を調整して、プラグインがステージングサイトを作成する際の一時的なPHPメモリ制限を適用します。 \n"
+"                この値はデフォルトで256Mに設定しています。メモリ不足のエラーが発生する場合は、値を大きくしてください。注意: ホスティング \n"
+"                プロバイダーによってはこれをサポートしません。"
+
+#: includes/staging/class-wpvivid-staging-setting.php:144
+#: includes/staging/class-wpvivid-staging-setting.php:323
+msgid ""
+"The time-out is not your server PHP time-out. With the execution time exhausted, our plugin will shut down the progress of \n"
+"                creating a staging site. If the progress  encounters a time-out, that means you have a medium or large sized website. Please try to \n"
+"                scale the value bigger."
+msgstr ""
+"タイムアウトは、サーバーの PHP のタイムアウトではありません。実行時間を使い果たすと、プラグインはステージングサイト作成の進行をシャットダウンします。 \n"
+"                進行中にタイムアウトが発生した場合は、中型または大型のサイトを意味します。この場合、 \n"
+"                値を大きくしてください。"
+
+#: includes/staging/class-wpvivid-staging-setting.php:127
+#: includes/staging/class-wpvivid-staging-setting.php:306
+msgid "Staging Memory Limit"
+msgstr "ステージングメモリー制限"
+
+#: includes/staging/class-wpvivid-staging-setting.php:124
+#: includes/staging/class-wpvivid-staging-setting.php:303
+msgid "Maximum size of the files copied to a staging site. All files larger than this value will be ignored. If you set the value of 0 MB, all files will be copied to a staging site."
+msgstr "ステージングサイトにコピーされるファイルの最大サイズ。この値より大きいファイルはすべて無視されます。0MBを設定すると、すべてのファイルがステージングサイトにコピーされます。"
+
+#: includes/staging/class-wpvivid-staging-setting.php:118
+#: includes/staging/class-wpvivid-staging-setting.php:297
+msgid "Max File Size"
+msgstr "最大ファイルサイズ"
+
+#: includes/staging/class-wpvivid-staging-setting.php:98
+#: includes/staging/class-wpvivid-staging-setting.php:277
+msgid "DB Replace Count"
+msgstr "DB 置換カウント"
+
+#: includes/staging/class-wpvivid-staging-setting.php:108
+#: includes/staging/class-wpvivid-staging-setting.php:287
+msgid "File Copy Count"
+msgstr "ファイルコピーカウント"
+
+#: includes/staging/class-wpvivid-staging-setting.php:93
+#: includes/staging/class-wpvivid-staging-setting.php:272
+msgid ""
+"Number of DB rows, that are copied within one ajax query. The higher value makes the database copy process faster. \n"
+"                Please try a high value to find out the highest possible value. If you encounter timeout errors, try lower values until no \n"
+"                more errors occur."
+msgstr ""
+"1回の ajax クエリでコピーされるDB行の数。値が大きいほど、データベースのコピー処理は速くなります。\n"
+"                可能な限り高い値で試してみてください。タイムアウトエラーが発生した場合は、エラーが発生しなくなるまで \n"
+"                下げた値を試してみてください。"
+
+#: includes/staging/class-wpvivid-staging-setting.php:104
+#: includes/staging/class-wpvivid-staging-setting.php:283
+msgid ""
+"Number of DB rows, that are processed within one ajax query. The higher value makes the DB replacement process faster. \n"
+"                If timeout erros occur, decrease the value because this process consumes a lot of memory."
+msgstr ""
+"1回の ajax クエリで処理されるDB行の数。値が大きいほど、DBの置換処理が速くなります。 \n"
+"                タイムアウトエラーが発生する場合は、この処理で多くのメモリを消費するため、値を小さくしてください。"
+
+#: includes/staging/class-wpvivid-staging-setting.php:87
+#: includes/staging/class-wpvivid-staging-setting.php:266
+msgid "DB Copy Count"
+msgstr "DB コピーカウント"
+
+#: includes/staging/class-wpvivid-staging-setting.php:29
+msgid "Staging Settings"
+msgstr "ステージング設定"
+
+#: includes/staging/class-wpvivid-staging-log-page.php:343
+msgid "Staging Logs"
+msgstr "ステージングログ"
+
+#: includes/staging/class-wpvivid-staging-log-page.php:56
+msgid "Action\t"
+msgstr "アクション\t"
+
+#: includes/staging/class-wpvivid-staging-log-page.php:55
+msgid "Log File Name\t"
+msgstr "ログファイル名\t"
+
+#: includes/staging/class-wpvivid-staging-setting.php:114
+#: includes/staging/class-wpvivid-staging-setting.php:293
+msgid ""
+"Number of files to copy that will be copied within one ajax request. The higher value makes the file copy process faster. \n"
+"                Please try a high value to find out the highest possible value. If you encounter timeout errors, try lower values until no more errors occur."
+msgstr ""
+"1回の ajax リクエストでコピーされるファイルの数。値が大きいほど、ファイルのコピー処理は速くなります。 \n"
+"                可能な限り高い値で試してみてください。タイムアウトエラーが発生した場合は、エラーが発生しなくなるまで値を下げて試してみてください。"
+
+#: admin/class-wpvivid-admin.php:1062
+msgid "Backup Logs"
+msgstr "バックアップログ"
+
+#: admin/class-wpvivid-admin.php:1636
+msgid "Features"
+msgstr "機能"
+
+#: admin/class-wpvivid-admin.php:1651
+msgid "White Label"
+msgstr "ホワイトラベル"
+
+#: admin/class-wpvivid-admin.php:1646
+msgid "Domains"
+msgstr "ドメイン"
+
+#: admin/class-wpvivid-admin.php:1673
+msgid "Up to 50 domains"
+msgstr "50ドメインまで"
+
+#: admin/class-wpvivid-admin.php:1664
+msgid "Up to 10 domains"
+msgstr "10ドメインまで"
+
+#: admin/class-wpvivid-admin.php:1655
+msgid "2 domains"
+msgstr "2ドメイン"
+
+#: admin/class-wpvivid-admin.php:1652
+msgid "Roles & Capabilities"
+msgstr "権限グループと権限"
+
+#: admin/class-wpvivid-admin.php:1649
+msgid "Mulitsite Support"
+msgstr "マルチサイトサポート"
+
+#: admin/class-wpvivid-admin.php:1648
+msgid "Image Optimization Pro (Unlimited/domain)"
+msgstr "Image Optimization Pro (制限なし / ドメイン)"
+
+#: admin/class-wpvivid-admin.php:1650
+msgid "Staging Pro"
+msgstr "Staging Pro"
+
+#: admin/class-wpvivid-admin.php:1647
+msgid "Backup & Migration Pro"
+msgstr "Backup & Migration Pro"
+
+#: admin/class-wpvivid-admin.php:1639
+msgid "Small Business"
+msgstr "スモールビジネス"
+
+#: admin/class-wpvivid-admin.php:1637
+msgid "Blogger"
+msgstr "ブロガー"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2478
+msgid "Compress images with our image optimization plugin, it's free"
+msgstr "無料の画像最適化プラグインで画像を圧縮する"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:75
+msgid "File"
+msgstr "ファイル"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:92
+msgid "File not found"
+msgstr "ファイルが見つかりません"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:88
+#: admin/partials/wpvivid-backup-restore-page-display.php:96
+#: admin/partials/wpvivid-backup-restore-page-display.php:101
+#: admin/partials/wpvivid-backup-restore-page-display.php:113
+#: admin/partials/wpvivid-backup-restore-page-display.php:122
+#: includes/class-wpvivid.php:2654 includes/class-wpvivid.php:2659
+#: includes/class-wpvivid.php:2668
+msgid "File Size: "
+msgstr "ファイルサイズ: "
+
+#: includes/customclass/class-wpvivid-google-drive.php:131
+msgid "<div class=\"notice notice-success is-dismissible\"><p>You have authenticated the Google Drive account as your remote storage.</p></div>"
+msgstr "<div class=\"notice notice-success is-dismissible\"><p>リモートストレージとして Google Drive のアカウントを認証しました。</p></div>"
+
+#: includes/customclass/class-wpvivid-one-drive.php:119
+msgid "<div class=\"notice notice-success is-dismissible\"><p>You have authenticated the Microsoft OneDrive account as your remote storage.</p></div>"
+msgstr "<div class=\"notice notice-success is-dismissible\"><p>リモートストレージとして Microsoft OneDrive のアカウントを認証しました。</p></div>"
+
+#: includes/customclass/class-wpvivid-dropbox.php:412
+msgid "<div class=\"notice notice-success is-dismissible\"><p>You have authenticated the Dropbox account as your remote storage.</p></div>"
+msgstr "<div class=\"notice notice-success is-dismissible\"><p>リモートストレージとして Dropbox のアカウントを認証しました。</p></div>"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:99
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:554
+msgid "Path"
+msgstr "パス"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:474
+msgid "Post Type"
+msgstr "投稿タイプ"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1180
+msgid "Scan"
+msgstr "スキャン"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:101
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:556
+msgid "Size"
+msgstr "サイズ"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:98
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:553
+msgid "Thumbnail"
+msgstr "サムネイル"
+
+#: includes/staging/class-wpvivid-staging-sites-list.php:819
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:95
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:473
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:97
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:552
+msgid " "
+msgstr " "
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2907
+msgid "Tip:"
+msgstr "ヒント:"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2443
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2585
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2672
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2759
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2815
+msgid "Scanned:"
+msgstr "スキャン済み:"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2439
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2581
+msgid "Total Posts:"
+msgstr "総投稿数:"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2668
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2755
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2811
+msgid "Total Folders:"
+msgstr "総フォルダー数:"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1105
+msgid "WPvivid Image Cleaner"
+msgstr "WPvivid Image Cleaner"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1027
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1040
+msgid "Image Cleaner"
+msgstr "Image Cleaner"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1192
+msgid "Please don't refresh the page while running a scan."
+msgstr "スキャン実行中は、ページを更新しないでください。"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:932
+msgid "Set how many posts to process per request. The value should be set depending on your server performance and the recommended value is 20."
+msgstr "1回のリクエストで処理する投稿の数を設定します。値はサーバーのパフォーマンスに応じて設定する必要があり、推奨値は20です。"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:939
+msgid "Set how many media files to process per request. The value should be set depending on your server performance and the recommended value is 100."
+msgstr "1回のリクエストで処理するメディアファイルの数を設定します。値はサーバーのパフォーマンスに応じて設定する必要があり、推奨値は100です。"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:927
+msgid "Posts Quantity Processed Per Request"
+msgstr "1回のリクエストで処理される投稿数"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:934
+msgid "Media Files Quantity Processed Per Request"
+msgstr "1回のリクエストで処理されるメディアファイル数"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:922
+msgid "With this option checked, when the image is deleted, the corresponding image url in the database that is not used anywhere on your website will also be deleted."
+msgstr "このオプションをオンにすると、画像を削除した際に、サイト内のどこからも使用されない、データベース内の対応する画像 URL も削除されます。"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:918
+msgid "Delete Image URL"
+msgstr "画像 URL の削除"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:913
+msgid "Checking this option will speed up your scans but may produce lower accuracy."
+msgstr "このオプションをオンにすると、スキャンが高速化しますが、精度が低下する可能性があります。"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:909
+msgid "Enable Quick Scan"
+msgstr "クイックスキャンを有効化"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:835
+msgid "Media Cleaner Settings"
+msgstr "メディアクリーナー設定"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:96
+msgid "File Regex"
+msgstr "File Regex"
+
+#: includes/class-wpvivid-exporter.php:275
+msgid "%s ago"
+msgstr "%s前"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:232
+#: includes/class-wpvivid-exporter.php:512
+#: includes/class-wpvivid-importer.php:268
+#: includes/snapshot/class-wpvivid-snapshots-list.php:184
+#: includes/staging/class-wpvivid-staging-log-page.php:201
+#: includes/staging/class-wpvivid-staging-sites-list.php:574
+#: includes/staging/class-wpvivid-staging-sites-list.php:993
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:209
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:587
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:274
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:729
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s個の項目"
+
+#: includes/class-wpvivid-export-import.php:704
+#: includes/class-wpvivid-export-import.php:725
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; 選択 &mdash;"
+
+#: includes/class-wpvivid-export-import.php:1552
+msgid "- Select -"
+msgstr "- 選択 -"
+
+#: admin/class-wpvivid-admin.php:1458 includes/class-wpvivid-importer.php:90
+#: includes/staging/class-wpvivid-staging-log-page.php:361
+msgid "Action"
+msgstr "操作"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:36
+#: admin/partials/wpvivid-remote-storage-page-display.php:337
+#: includes/snapshot/class-wpvivid-snapshots-list.php:42
+msgid "Actions"
+msgstr "操作"
+
+#: admin/partials/wpvivid-settings-page-display.php:736
+msgid "Advanced Settings"
+msgstr "高度な設定"
+
+#: includes/class-wpvivid-export-import.php:651
+msgid "All Categories"
+msgstr "カテゴリー一覧"
+
+#: includes/class-wpvivid-exporter.php:118
+msgid "Author"
+msgstr "投稿者"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:586
+msgid "Backup"
+msgstr "バックアップ"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2385
+#: includes/class-wpvivid-migrate.php:400
+#: includes/class-wpvivid-migrate.php:1220
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: includes/class-wpvivid-export-import.php:624
+msgid "Choose what to export"
+msgstr "エクスポートする内容を選択"
+
+#: includes/class-wpvivid-exporter.php:150
+msgid "Comments"
+msgstr "コメント"
+
+#: includes/class-wpvivid-importer.php:88
+msgid "Count"
+msgstr "カウント"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:281
+#: admin/partials/wpvivid-backup-restore-page-display.php:285
+#: includes/class-wpvivid-exporter.php:566
+#: includes/class-wpvivid-exporter.php:570
+#: includes/class-wpvivid-importer.php:322
+#: includes/class-wpvivid-importer.php:326
+#: includes/snapshot/class-wpvivid-snapshots-list.php:233
+#: includes/snapshot/class-wpvivid-snapshots-list.php:237
+#: includes/staging/class-wpvivid-staging-log-page.php:250
+#: includes/staging/class-wpvivid-staging-log-page.php:254
+#: includes/staging/class-wpvivid-staging-sites-list.php:623
+#: includes/staging/class-wpvivid-staging-sites-list.php:627
+#: includes/staging/class-wpvivid-staging-sites-list.php:1042
+#: includes/staging/class-wpvivid-staging-sites-list.php:1046
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:258
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:262
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:636
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:640
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:323
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:327
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:778
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:782
+msgid "Current Page"
+msgstr "現在のページ"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:405
+#: admin/partials/wpvivid-schedule-page-display.php:142
+#: includes/class-wpvivid-schedule.php:113
+msgid "Custom"
+msgstr "カスタム"
+
+#: includes/class-wpvivid-schedule.php:40
+#: includes/class-wpvivid-schedule.php:94
+msgid "Daily"
+msgstr "毎日"
+
+#: admin/class-wpvivid-admin.php:1455 includes/class-wpvivid-exporter.php:152
+#: includes/staging/class-wpvivid-staging-log-page.php:53
+#: includes/staging/class-wpvivid-staging-log-page.php:358
+msgid "Date"
+msgstr "日付"
+
+#: admin/class-wpvivid-admin.php:1056
+msgid "Debug"
+msgstr "デバッグ"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:590
+#: includes/class-wpvivid-migrate.php:915
+msgid "Delete"
+msgstr "削除"
+
+#: admin/class-wpvivid-admin.php:1337
+#: admin/partials/wpvivid-backup-restore-page-display.php:88
+#: admin/partials/wpvivid-backup-restore-page-display.php:551
+#: admin/partials/wpvivid-backup-restore-page-display.php:588
+#: includes/class-wpvivid.php:2659 includes/class-wpvivid.php:6265
+#: includes/staging/class-wpvivid-staging-log-page.php:57
+msgid "Download"
+msgstr "ダウンロード"
+
+#: includes/customclass/class-wpvivid-dropbox.php:484
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#: admin/class-wpvivid-admin.php:272
+msgid "Error:"
+msgstr "エラー:"
+
+#: admin/partials/wpvivid-settings-page-display.php:449
+msgid "Export"
+msgstr "エクスポート"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:36
+msgid "FTP"
+msgstr "FTP"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:88
+#: includes/customclass/class-wpvivid-ftpclass.php:203
+msgid "FTP login"
+msgstr "FTP ログイン"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:100
+#: includes/customclass/class-wpvivid-ftpclass.php:215
+msgid "FTP password"
+msgstr "FTP パスワード"
+
+#: includes/class-wpvivid-importer.php:86
+msgid "File Name"
+msgstr "ファイル名"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2371
+msgid "File Size:"
+msgstr "フルサイズ:"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:263
+#: includes/class-wpvivid-exporter.php:548
+#: includes/class-wpvivid-importer.php:304
+#: includes/snapshot/class-wpvivid-snapshots-list.php:215
+#: includes/staging/class-wpvivid-staging-log-page.php:232
+#: includes/staging/class-wpvivid-staging-sites-list.php:605
+#: includes/staging/class-wpvivid-staging-sites-list.php:1024
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:240
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:618
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:305
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:760
+msgid "First page"
+msgstr "最初の固定ページ"
+
+#: includes/class-wpvivid-schedule.php:52
+#: includes/class-wpvivid-schedule.php:100
+msgid "Fortnightly"
+msgstr "2週間ごと"
+
+#: admin/partials/wpvivid-settings-page-display.php:730
+msgid "General Settings"
+msgstr "一般設定"
+
+#: includes/class-wpvivid-migrate.php:442
+msgid "Generate"
+msgstr "生成"
+
+#: includes/customclass/class-wpvivid-google-drive.php:210
+msgid "Google Drive"
+msgstr "Google Drive"
+
+#: admin/partials/wpvivid-settings-page-display.php:454
+#: includes/class-wpvivid-export-import.php:1564
+#: includes/class-wpvivid-importer.php:194
+msgid "Import"
+msgstr "インポート"
+
+#: includes/class-wpvivid.php:5607
+msgid "Invalid email address"
+msgstr "無効なメールアドレス"
+
+#: includes/class-wpvivid-importer.php:1742
+msgid "Invalid file type"
+msgstr "無効なファイル形式"
+
+#: includes/class-wpvivid-migrate.php:56
+msgid "Key"
+msgstr "キー"
+
+#: includes/class-wpvivid-exporter.php:290
+msgid "Last Modified"
+msgstr "最終更新日"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:309
+#: includes/class-wpvivid-exporter.php:594
+#: includes/class-wpvivid-importer.php:350
+#: includes/snapshot/class-wpvivid-snapshots-list.php:261
+#: includes/staging/class-wpvivid-staging-log-page.php:278
+#: includes/staging/class-wpvivid-staging-sites-list.php:651
+#: includes/staging/class-wpvivid-staging-sites-list.php:1070
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:286
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:664
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:351
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:806
+msgid "Last page"
+msgstr "最後のページ"
+
+#: includes/class-wpvivid-export-import.php:121
+#: includes/class-wpvivid-export-import.php:1518
+msgid "Learn more"
+msgstr "さらに詳しく"
+
+#: admin/class-wpvivid-admin.php:1069
+#: admin/partials/wpvivid-backup-restore-page-display.php:529
+#: admin/partials/wpvivid-backup-restore-page-display.php:2386
+#: includes/class-wpvivid.php:6255
+msgid "Log"
+msgstr "ログ"
+
+#: admin/class-wpvivid-admin.php:1456
+#: includes/staging/class-wpvivid-staging-log-page.php:54
+#: includes/staging/class-wpvivid-staging-log-page.php:359
+msgid "Log Type"
+msgstr "ログタイプ"
+
+#: admin/class-wpvivid-admin.php:1264
+msgid "Logs"
+msgstr "ログ"
+
+#: includes/class-wpvivid-schedule.php:58
+#: includes/class-wpvivid-schedule.php:103
+msgid "Monthly"
+msgstr "毎月"
+
+#: includes/class-wpvivid-export-import.php:158
+#: includes/class-wpvivid-export-import.php:181
+msgid "Next Step"
+msgstr "次のステップ"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:299
+#: includes/class-wpvivid-exporter.php:584
+#: includes/class-wpvivid-importer.php:340
+#: includes/snapshot/class-wpvivid-snapshots-list.php:251
+#: includes/staging/class-wpvivid-staging-log-page.php:268
+#: includes/staging/class-wpvivid-staging-sites-list.php:641
+#: includes/staging/class-wpvivid-staging-sites-list.php:1060
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:276
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:654
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:341
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:796
+msgid "Next page"
+msgstr "次のページ"
+
+#: includes/class-wpvivid-export-import.php:125
+#: includes/class-wpvivid-export-import.php:1521
+msgid "Note:"
+msgstr "注:"
+
+#: includes/class-wpvivid-export-import.php:150
+msgid "Page"
+msgstr "固定ページ"
+
+#: includes/class-wpvivid.php:6585
+msgid "Please enter a valid email address."
+msgstr "有効なメールアドレスを入力してください。"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:104
+#: includes/customclass/class-wpvivid-sftpclass.php:219
+msgid "Port"
+msgstr "ポート"
+
+#: includes/class-wpvivid-export-import.php:147
+msgid "Post"
+msgstr "投稿"
+
+#: includes/class-wpvivid-importer.php:87
+msgid "Post Types"
+msgstr "投稿タイプ"
+
+#: admin/class-wpvivid-admin.php:1090
+msgid "Premium"
+msgstr "プレミアム"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:274
+#: includes/class-wpvivid-exporter.php:559
+#: includes/class-wpvivid-importer.php:315
+#: includes/snapshot/class-wpvivid-snapshots-list.php:226
+#: includes/staging/class-wpvivid-staging-log-page.php:243
+#: includes/staging/class-wpvivid-staging-sites-list.php:616
+#: includes/staging/class-wpvivid-staging-sites-list.php:1035
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:251
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:629
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:316
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:771
+msgid "Previous page"
+msgstr "前のページ"
+
+#: includes/class-wpvivid-exporter.php:282
+msgid "Published"
+msgstr "公開済み"
+
+#: admin/partials/wpvivid-settings-page-display.php:168
+msgid "Remove"
+msgstr "削除"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:540
+#: admin/partials/wpvivid-backup-restore-page-display.php:589
+#: admin/partials/wpvivid-backup-restore-page-display.php:1292
+#: includes/class-wpvivid.php:6273
+msgid "Restore"
+msgstr "復元"
+
+#: includes/class-wpvivid-export-import.php:803
+msgid "Sample:"
+msgstr "サンプル: "
+
+#: admin/class-wpvivid-admin.php:1132 admin/class-wpvivid-admin.php:1219
+#: admin/partials/wpvivid-remote-storage-page-display.php:48
+#: admin/partials/wpvivid-remote-storage-page-display.php:345
+#: includes/customclass/class-wpvivid-amazons3-plus.php:297
+#: includes/customclass/class-wpvivid-dropbox.php:736
+#: includes/customclass/class-wpvivid-ftpclass.php:254
+#: includes/customclass/class-wpvivid-google-drive.php:466
+#: includes/customclass/class-wpvivid-one-drive.php:449
+#: includes/customclass/class-wpvivid-s3compat.php:618
+#: includes/customclass/class-wpvivid-sftpclass.php:244
+#: includes/staging/class-wpvivid-staging-setting.php:386
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:855
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: includes/class-wpvivid-exporter.php:287
+msgid "Scheduled"
+msgstr "予約済み"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:35
+#: includes/class-wpvivid-exporter.php:71
+#: includes/class-wpvivid-importer.php:50
+#: includes/staging/class-wpvivid-staging-sites-list.php:360
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:53
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:431
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:55
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:510
+msgid "Select All"
+msgstr "すべて選択"
+
+#: includes/class-wpvivid-backup-uploader.php:705
+msgid "Select Files"
+msgstr "ファイルを選択"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:68
+#: includes/customclass/class-wpvivid-sftpclass.php:183
+msgid "Server Address"
+msgstr "サーバーアドレス"
+
+#: admin/class-wpvivid-admin.php:137 admin/class-wpvivid-admin.php:500
+#: admin/class-wpvivid-admin.php:506 admin/class-wpvivid-admin.php:515
+#: admin/class-wpvivid-admin.php:521 admin/class-wpvivid-admin.php:1050
+msgid "Settings"
+msgstr "設定"
+
+#: includes/class-wpvivid-importer.php:1681
+#: includes/class-wpvivid-importer.php:1782
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "このファイルタイプはセキュリティ上の理由から、許可されていません。"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:587
+msgid "Storage"
+msgstr "ストレージ"
+
+#: includes/class-wpvivid-importer.php:1931
+#: includes/class-wpvivid-importer.php:1936
+#: includes/class-wpvivid-importer.php:2161
+#: includes/class-wpvivid-importer.php:2357
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "これは WXR ファイルではないようです。WXR のバージョン番号がない、または無効です"
+
+#: admin/class-wpvivid-admin.php:171
+#: includes/snapshot/class-wpvivid-snapshot.php:1512
+#: includes/staging/class-wpvivid-staging.php:83
+msgid "Troubleshooting"
+msgstr "トラブルシューティング"
+
+#: includes/class-wpvivid.php:6254
+msgid "Type:"
+msgstr "種類:"
+
+#. translators: %s: directory path
+#: includes/class-wpvivid-restore-site.php:276
+#: includes/staging/class-wpvivid-staging.php:2773
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr "ディレクトリ %s を作成できません。この親ディレクトリのアクセス権はサーバーによる書き込みを許可していますか ?"
+
+#: includes/class-wpvivid-exporter.php:265
+msgid "Unpublished"
+msgstr "未公開"
+
+#: includes/class-wpvivid-migrate.php:1288
+msgid "Upload"
+msgstr "アップロード"
+
+#: includes/class-wpvivid-backup-uploader.php:704
+msgctxt "Uploader: Drop files here - or - Select Files"
+msgid "or"
+msgstr "または"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:80
+#: includes/customclass/class-wpvivid-sftpclass.php:195
+msgid "User Name"
+msgstr "ユーザー名"
+
+#: admin/class-wpvivid-admin.php:271
+msgid "Warning:"
+msgstr "警告:"
+
+#: includes/class-wpvivid-schedule.php:46
+#: includes/class-wpvivid-schedule.php:97
+msgid "Weekly"
+msgstr "毎週"
+
+#: includes/class-wpvivid-exporter.php:115
+msgctxt "column name"
+msgid "Title"
+msgstr "タイトル"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:291
+#: includes/class-wpvivid-exporter.php:576
+#: includes/class-wpvivid-importer.php:332
+#: includes/snapshot/class-wpvivid-snapshots-list.php:243
+#: includes/staging/class-wpvivid-staging-log-page.php:260
+#: includes/staging/class-wpvivid-staging-sites-list.php:633
+#: includes/staging/class-wpvivid-staging-sites-list.php:1052
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:268
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:646
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:333
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:788
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s / %2$s"
+
+#: admin/class-wpvivid-admin.php:1470
+#: includes/staging/class-wpvivid-staging-log-page.php:373
+msgid " < Pre page "
+msgstr " < 前ページ"
+
+#: admin/class-wpvivid-admin.php:1481
+#: includes/staging/class-wpvivid-staging-log-page.php:384
+msgid " Next page > "
+msgstr " 次ページ > "
+
+#: admin/partials/wpvivid-schedule-page-display.php:95
+msgid "+ Add another schedule"
+msgstr "+ 別のスケジュールを追加"
+
+#: includes/class-wpvivid-schedule.php:34
+msgid "12 Hours"
+msgstr "12時間"
+
+#: includes/class-wpvivid-schedule.php:91
+msgid "12Hours"
+msgstr "12時間"
+
+#: admin/partials/wpvivid-schedule-page-display.php:32
+msgid "Advanced Schedule"
+msgstr "高度なスケジュール"
+
+#: includes/class-wpvivid-export-import.php:681
+msgid "All Authors"
+msgstr "投稿者一覧"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:44
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:106
+#: includes/customclass/class-wpvivid-amazons3-plus.php:244
+msgid "Amazon S3 Bucket Name(e.g. test)"
+msgstr "Amazon S3 バケット名 (例: テスト)"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:82
+#: includes/customclass/class-wpvivid-amazons3-plus.php:220
+msgid "Amazon S3 access key"
+msgstr "Amazon S3 アクセスキー"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:94
+#: includes/customclass/class-wpvivid-amazons3-plus.php:232
+msgid "Amazon S3 secret key"
+msgstr "Amazon S3 シークレットキー"
+
+#: includes/customclass/class-wpvivid-dropbox.php:687
+msgid "Authenticate with Dropbox"
+msgstr "Dropbox で認証"
+
+#: includes/class-wpvivid-migrate.php:49
+msgid "Auto-Migration"
+msgstr "自動移行"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2476
+msgid "Back Up Manually"
+msgstr "手動バックアップ"
+
+#: admin/partials/wpvivid-settings-page-display.php:137
+msgid "Backup Folder"
+msgstr "バックアップフォルダー"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:522
+msgid "Backups"
+msgstr "バックアップ"
+
+#: admin/class-wpvivid-admin.php:157
+#: includes/snapshot/class-wpvivid-snapshot.php:1505
+#: includes/staging/class-wpvivid-staging.php:76
+msgid "ChangeLog"
+msgstr "変更履歴"
+
+#: includes/class-wpvivid-export-import.php:141
+msgid "Choose post type"
+msgstr "投稿タイプを選択"
+
+#: includes/class-wpvivid-migrate.php:1036
+msgid "Choose the content you want to transfer"
+msgstr "転送するコンテンツを選択"
+
+#: includes/class-wpvivid-migrate.php:1167
+msgid "Choose what to migrate"
+msgstr "移行するものを選択"
+
+#: admin/partials/wpvivid-settings-page-display.php:665
+msgid "Chunk Size"
+msgstr "分割サイズ"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:118
+#: includes/customclass/class-wpvivid-amazons3-plus.php:256
+#: includes/customclass/class-wpvivid-s3compat.php:478
+#: includes/customclass/class-wpvivid-s3compat.php:593
+msgid "Custom Path"
+msgstr "カスタムパス"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2370
+msgid "Database Size:"
+msgstr "データベースサイズ: "
+
+#: includes/customclass/class-wpvivid-s3compat.php:413
+msgid "DigitalOcean Spaces"
+msgstr "DigitalOcean Spaces"
+
+#: includes/customclass/class-wpvivid-s3compat.php:442
+#: includes/customclass/class-wpvivid-s3compat.php:557
+msgid "DigitalOcean Spaces access key"
+msgstr "DigitalOcean Spaces アクセスキー"
+
+#: includes/customclass/class-wpvivid-s3compat.php:454
+#: includes/customclass/class-wpvivid-s3compat.php:569
+msgid "DigitalOcean Spaces secret key"
+msgstr "DigitalOcean Spaces シークレットキー"
+
+#: includes/class-wpvivid-backup-uploader.php:703
+msgid "Drop files here"
+msgstr "ここにファイルをドロップ"
+
+#: includes/class-wpvivid-export-import.php:1117
+msgid "Empty post id"
+msgstr "空の投稿 ID"
+
+#: includes/class-wpvivid-export-import.php:1342
+msgid "Export error:"
+msgstr "エクスポートエラー:"
+
+#: admin/class-wpvivid-admin.php:1638
+msgid "Freelancer"
+msgstr "フリーランサー"
+
+#: includes/class-wpvivid.php:4074
+msgid "Last Backup: "
+msgstr "最後のバックアップ: "
+
+#: admin/class-wpvivid-admin.php:1457
+#: includes/staging/class-wpvivid-staging-log-page.php:360
+msgid "Log File Name"
+msgstr "ログファイル名"
+
+#: admin/class-wpvivid-admin.php:1080
+msgid "MainWP"
+msgstr "MainWP"
+
+#: includes/class-wpvivid-migrate.php:1133
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:864
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:902
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1191
+msgid "Note: "
+msgstr "メモ: "
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:400
+#: admin/partials/wpvivid-schedule-page-display.php:136
+#: includes/class-wpvivid-migrate.php:1162
+msgid "Only Database"
+msgstr "データベースのみ"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:38
+msgid "SFTP"
+msgstr "SFTP"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2376
+#: includes/class-wpvivid-migrate.php:1211 includes/class-wpvivid.php:4150
+msgid "Speed:"
+msgstr "速度:"
+
+#: admin/partials/wpvivid-settings-page-display.php:248
+msgid "Test Email"
+msgstr "テストメール"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2374
+#: admin/partials/wpvivid-settings-page-display.php:312
+#: includes/class-wpvivid-migrate.php:1209 includes/class-wpvivid.php:4148
+msgid "Total Size:"
+msgstr "合計サイズ:"
+
+#: includes/class-wpvivid-importer.php:167
+msgid "Type: "
+msgstr "タイプ: "
+
+#: includes/customclass/class-wpvivid-sftpclass.php:92
+#: includes/customclass/class-wpvivid-sftpclass.php:207
+msgid "User Password"
+msgstr "ユーザーパスワード"
+
+#. Plugin Name of the plugin
+#: admin/partials/wpvivid-admin-display.php:49
+#: includes/class-wpvivid-export-import.php:94
+msgid "WPvivid Backup Plugin"
+msgstr "WPvivid Backup Plugin"
+
+#: admin/class-wpvivid-admin.php:190
+msgid "WPvivid Backup Settings"
+msgstr "WPvivid バックアップ設定"
+
+#: admin/class-wpvivid-admin.php:1301
+msgid "Your email:"
+msgstr "メールアドレス:"
+
+#: includes/customclass/class-wpvivid-s3compat.php:490
+#: includes/customclass/class-wpvivid-s3compat.php:605
+msgid "region.digitaloceanspaces.com"
+msgstr "region.digitaloceanspaces.com"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:131
+#: includes/customclass/class-wpvivid-dropbox.php:548
+#: includes/customclass/class-wpvivid-ftpclass.php:125
+#: includes/customclass/class-wpvivid-google-drive.php:274
+#: includes/customclass/class-wpvivid-one-drive.php:258
+#: includes/customclass/class-wpvivid-s3compat.php:503
+#: includes/customclass/class-wpvivid-sftpclass.php:129
+msgid "Set as the default remote storage."
+msgstr "デフォルトのリモートストレージとして設定する。"
+
+#. Author of the plugin
+msgid "WPvivid Team"
+msgstr "WPvivid Team"
+
+#. Author URI of the plugin
+msgid "https://wpvivid.com"
+msgstr "https://wpvivid.com"
+
+#: admin/class-wpvivid-admin.php:114 admin/class-wpvivid-admin.php:128
+#: admin/class-wpvivid-admin.php:1032
+msgid "Backup & Restore"
+msgstr "バックアップ & 復元"
+
+#: includes/class-wpvivid.php:6580
+msgid "User's email address is required."
+msgstr "ユーザーのメールアドレスが必要です。"
+
+#: includes/class-wpvivid.php:6408
+msgid "Save backups on localhost (web server)"
+msgstr "ローカルホスト (Web サーバー) にバックアップを保存"
+
+#: includes/class-wpvivid.php:5585
+msgid "The selected file is not the setting file for WPvivid. Please upload the right file."
+msgstr "選択されたファイルは、WPvivid の設定ファイルではありません。正しいファイルをアップロードしてください。"
+
+#: includes/class-wpvivid.php:5460 includes/class-wpvivid.php:5464
+msgid "The pdo_mysql extension is not detected. Please install the extension first or choose wpdb option for Database connection method."
+msgstr "pdo_mysql 拡張機能が検出されません。拡張機能をインストールするか、データベース接続方式に wpdb オプションを選択してください。"
+
+#: includes/class-wpvivid.php:5451
+msgid "An email address is required."
+msgstr "メールアドレスが必要です。"
+
+#: includes/class-wpvivid.php:5434 includes/class-wpvivid.php:5441
+msgid "The local storage path is required."
+msgstr "ローカルストレージのパスが必要です。"
+
+#: includes/class-wpvivid.php:4951
+msgid "Choose one storage from the list to be the default storage."
+msgstr "デフォルトストレージとするストレージを、リストから1つ選択してください。"
+
+#: includes/class-wpvivid.php:4780
+msgid "The selected junk files have been deleted."
+msgstr "選択したジャンクファイルを削除しました。"
+
+#: includes/class-wpvivid.php:4706
+msgid "Choose at least one type of junk files for deleting."
+msgstr "削除するジャンクファイルの種類を1つ以上選択してください。"
+
+#: includes/class-wpvivid.php:4265
+msgid "Getting backup directory failed. Please try again later."
+msgstr "バックアップディレクトリの取得に失敗しました。後で再試行してください。"
+
+#: includes/class-wpvivid.php:4171
+msgid "%d backup tasks have been completed. Please switch to <a href=\"#\" onclick=\"wpvivid_click_switch_page('wrap', 'wpvivid_tab_log', true);\">Log</a> page to check the details."
+msgstr "%d個のバックアップタスクが完了しました。詳細は<a href=\"#\" onclick=\"wpvivid_click_switch_page('wrap', 'wpvivid_tab_log', true);\">ログ</a>ページに切り替えて確認してください。"
+
+#: includes/class-wpvivid.php:4045 includes/class-wpvivid.php:4071
+msgid "The last backup message not found."
+msgstr "最後のバックアップのメッセージが見つかりません。"
+
+#: includes/class-wpvivid.php:3925
+msgid "The restore file not found. Please verify the file exists."
+msgstr "復元ファイルが見つかりません。ファイルがあることを確認してください。"
+
+#: includes/class-wpvivid.php:3876
+msgid "restore failed error unknown"
+msgstr "復元は不明なエラーで失敗しました"
+
+#: includes/class-wpvivid.php:3044
+#: includes/customclass/class-wpvivid-dropbox.php:864
+#: includes/customclass/class-wpvivid-google-drive.php:1129
+#: includes/customclass/class-wpvivid-one-drive.php:1380
+msgid "You have successfully added a remote storage."
+msgstr "リモートストレージの追加に成功しました。"
+
+#: includes/class-wpvivid.php:2931
+msgid "Retrieving the backup(s) information failed while deleting the selected backup(s). Please try again later."
+msgstr "選択したバックアップを削除中、バックアップ情報の取得に失敗しました。あとで再実行してください。"
+
+#: includes/class-wpvivid.php:1740 includes/class-wpvivid.php:1860
+#: includes/new_backup/class-wpvivid-backup2.php:861
+#: includes/new_backup/class-wpvivid-backup2.php:1228
+msgid "Task timed out."
+msgstr "タスクはタイムアウトしました。"
+
+#: includes/class-wpvivid.php:3124
+msgid "Failed to get the remote storage information. Please try again later."
+msgstr "リモートストレージ情報の取得に失敗しました。あとでもう一度お試しください。"
+
+#: includes/class-wpvivid.php:3096
+msgid "Failed to delete the remote storage, can not retrieve the storage infomation. Please try again."
+msgstr "リモートストレージの削除に失敗しました。ストレージ情報を取得できません。もう一度お試しください。"
+
+#: includes/class-wpvivid.php:2941
+msgid "Unable to delete the locked backup. Please unlock it first and try again."
+msgstr "ロックされたバックアップを削除できません。まずロックを解除してから、もう一度お試しください。"
+
+#: includes/class-wpvivid.php:1559 includes/class-wpvivid.php:1581
+#: includes/class-wpvivid.php:1607 includes/class-wpvivid.php:1732
+#: includes/class-wpvivid.php:1852
+#: includes/new_backup/class-wpvivid-backup2.php:852
+#: includes/new_backup/class-wpvivid-backup2.php:1220
+msgid "Too many resumption attempts."
+msgstr "再開の試行が多すぎます。"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:235
+#: admin/partials/wpvivid-schedule-page-display.php:189
+#: includes/class-wpvivid-interface-mainwp.php:143
+#: includes/class-wpvivid.php:593 includes/class-wpvivid.php:5486
+#: includes/new_backup/class-wpvivid-backup2.php:108
+msgid "There is no default remote storage configured. Please set it up first."
+msgstr "デフォルトのリモートストレージ構成がありません。先にセットアップしてください。"
+
+#: includes/class-wpvivid-interface-mainwp.php:126
+#: includes/class-wpvivid-interface-mainwp.php:133
+#: includes/class-wpvivid.php:573 includes/class-wpvivid.php:582
+#: includes/new_backup/class-wpvivid-backup2.php:89
+#: includes/new_backup/class-wpvivid-backup2.php:97
+msgid "Choose at least one storage location for backups."
+msgstr "バックアップのストレージ場所を少なくとも1つ選択してください。"
+
+#: includes/class-wpvivid-interface-mainwp.php:119
+#: includes/class-wpvivid.php:559 includes/class-wpvivid.php:567
+#: includes/new_backup/class-wpvivid-backup2.php:81
+msgid "A backup type is required."
+msgstr "バックアップタイプが必要です。"
+
+#: includes/class-wpvivid-schedule.php:282
+#: includes/class-wpvivid-schedule.php:296
+msgid "Creating scheduled tasks failed. Please try again later."
+msgstr "スケジュールタスクの作成に失敗しました。あとでもう一度お試しください。"
+
+#: includes/class-wpvivid-export-import.php:1554
+msgid "Import Setting"
+msgstr "インポート設定"
+
+#: includes/class-wpvivid-export-import.php:1551
+msgid "Select an existing author:"
+msgstr "既存のユーザーを選択:"
+
+#: includes/class-wpvivid-export-import.php:1562
+msgid "With this option checked, Pages/posts already existing will be overwritten with the updated ones in an import."
+msgstr "このオプションをオンにすると、インポート時に、既存の固定ページや投稿が更新されたもので上書きされます。"
+
+#: includes/class-wpvivid-export-import.php:1558
+msgid "Overwrite existing pages"
+msgstr "既存のページを上書き"
+
+#: includes/class-wpvivid-export-import.php:1549
+msgid "Assign author"
+msgstr "投稿者の割り当て"
+
+#: includes/class-wpvivid-export-import.php:1546
+msgid "The importing file info"
+msgstr "インポートするファイルの情報"
+
+#: includes/class-wpvivid-export-import.php:1542
+msgid "Scan Uploaded Exports"
+msgstr "アップロードしたエクスポートをスキャン"
+
+#: includes/class-wpvivid-export-import.php:1541
+msgid "Or you can use ftp to upload the export to the directory %s. Then click the button below to scan the file to import."
+msgstr "または、ftp を使用してエクスポートをディレクトリ「%s」にアップロードできます。次に、下のボタンをクリックしてファイルをインポートのためにスキャンします。"
+
+#: includes/class-wpvivid-export-import.php:1538
+msgid "Upload and Import"
+msgstr "アップロードとインポート"
+
+#: includes/class-wpvivid-export-import.php:1537
+msgid "Choose an export from your computer to import: "
+msgstr "コンピュータからインポートするエクスポートを選択してください: "
+
+#: includes/class-wpvivid-export-import.php:1532
+#: includes/class-wpvivid-export-import.php:1785
+#: includes/class-wpvivid-export-import.php:2083
+msgid "Delete Exported Files In Folder"
+msgstr "フォルダー内のエクスポートされたファイルを削除"
+
+#: includes/class-wpvivid-export-import.php:1531
+msgid "Imported files will be temporarily stored in %s directory"
+msgstr "インポートされたファイルは一時的にディレクトリ「%s」に保存されます"
+
+#: includes/class-wpvivid-export-import.php:1522
+msgid "To properly display the imported content, please make sure that the importing and exporting sites have the same environment, for example, same theme or pages built with the same page builder."
+msgstr "インポートしたコンテンツを正しく表示するには、インポートとエクスポートのサイトが同じ環境であること、例えば、同じテーマや、同じページビルダーで構築されたページであることを確認してください。"
+
+#: includes/class-wpvivid-export-import.php:1516
+msgid "Import posts or pages with images in bulk."
+msgstr "投稿やページを画像と一緒に一括でインポートします。"
+
+#: includes/class-wpvivid-export-import.php:1491
+msgid "File not found. Please retry again."
+msgstr "ファイルが見つかりません。もう一度お試しください。"
+
+#: includes/class-wpvivid-export-import.php:1485
+msgid "File size not match. please retry again."
+msgstr "ファイルサイズが一致しません。もう一度お試しください。"
+
+#: includes/class-wpvivid-export-import.php:1376
+msgid "Task time out."
+msgstr "タスクはタイムアウトしました。"
+
+#: includes/class-wpvivid-export-import.php:1317
+msgid "The export task is not responding."
+msgstr "エクスポートタスクが応答しません。"
+
+#: includes/class-wpvivid-export-import.php:1305
+msgid "Ready to export. Progress: 0%, running time: 0second."
+msgstr "エクスポートの準備ができました。進行状況: 0%、実行時間: 0秒。"
+
+#: includes/class-wpvivid-export-import.php:1150
+msgid "Error occurred while parsing the request data. Please try to run export task again."
+msgstr "リクエストデータのパース中にエラーが発生しました。もう一度エクスポートタスクをお試しください。"
+
+#: includes/class-wpvivid-export-import.php:812
+msgid "Export and Download"
+msgstr "エクスポートとダウンロード"
+
+#: includes/class-wpvivid-export-import.php:799
+msgid "Only letters (except for wpvivid) and numbers are allowed."
+msgstr "「wpvivid」以外の文字と数字のみが許可されます。"
+
+#: includes/class-wpvivid-export-import.php:795
+msgid "Comment the export: "
+msgstr "エクスポートのコメント: "
+
+#: includes/class-wpvivid-export-import.php:790
+msgid "Comment the export (optional)"
+msgstr "エクスポートのコメント (オプション)"
+
+#: includes/class-wpvivid-export-import.php:777
+msgid "Search for %s according to the above rules."
+msgstr "上のルールに従って「%s」を検索する。"
+
+#: includes/class-wpvivid-export-import.php:734
+msgid "Export %s published before this date."
+msgstr "この日付より前に公開された %s をエクスポートする。"
+
+#: includes/class-wpvivid-export-import.php:713
+msgid "Export %s published after this date."
+msgstr "この日付より後に公開された %s をエクスポートする。"
+
+#: includes/class-wpvivid-export-import.php:692
+msgid "Export %s of all authors or a specific author."
+msgstr "すべての投稿者、または特定の投稿者の %s をエクスポートする。"
+
+#: includes/class-wpvivid-export-import.php:661
+msgid "Export %s of all categories or a specific category."
+msgstr "すべてのカテゴリ、または特定のカテゴリの %s をエクスポートする。"
+
+#: includes/class-wpvivid-export-import.php:632
+msgid "Filter Posts/Pages"
+msgstr "投稿 / 固定ページのフィルタリング"
+
+#: includes/class-wpvivid-export-import.php:153
+msgid "More post types coming soon..."
+msgstr "より多くの投稿タイプを予定..."
+
+#: includes/class-wpvivid-export-import.php:135
+msgid "Exported files will be temporarily stored in %s directory"
+msgstr "エクスポートされたファイルは一時的にディレクトリ「%s」に保存されます"
+
+#: includes/class-wpvivid-export-import.php:125
+msgid "Try to select fewer items when you are facing a shortage of server resources (typically presented as a timeout error)."
+msgstr "サーバーのリソースが不足している場合 (通常、タイムアウトエラーとして表れます) には、選択する項目を減らしてください。"
+
+#: includes/class-wpvivid-export-import.php:124
+msgid "This will contain all of your posts, pages, comments, terms and images (original images, featured images and thumbnails)."
+msgstr "これには、すべての投稿、固定ページ、コメント、ターム、画像（オリジナル画像、アイキャッチ画像、サムネイル画像）が含まれます。"
+
+#: includes/class-wpvivid-export-import.php:119
+msgid "Export posts or pages with images in bulk."
+msgstr "投稿やページを画像と一緒に一括でエクスポートします。"
+
+#: includes/class-wpvivid-export-import.php:65
+#: includes/class-wpvivid-export-import.php:78
+msgid "Export & Import"
+msgstr "エクスポートとインポート"
+
+#: includes/class-wpvivid-migrate.php:1298
+msgid "The backups will be uploaded to %s directory."
+msgstr "バックアップはディレクトリ %s にアップロードされます。"
+
+#: includes/class-wpvivid-migrate.php:1228
+msgid "Transfer succeeded. Please scan the backup list on the destination site to display the backup, then restore the backup."
+msgstr "転送に成功しました。転送先のバックアップリストをスキャンしてバックアップを表示し、バックアップを復元してください。"
+
+#: includes/class-wpvivid-migrate.php:1143
+msgid "1. Download a backup in backups list to your computer."
+msgstr "1. バックアップ一覧にあるバックアップをダウンロードする。"
+
+#: includes/class-wpvivid-migrate.php:1144
+msgid "2. Upload the backup to destination site. There are two ways available to use:"
+msgstr "2. バックアップを保存先にアップロードする。2つの方法が用意されています:"
+
+#: includes/class-wpvivid-migrate.php:1145
+msgid "2.1 Upload the backup to the upload section of WPvivid backup plugin in destination site."
+msgstr "2.1 宛先サイトの WPvivid backup プラグインのアップロードセクションにバックアップをアップロードする。"
+
+#: includes/class-wpvivid-migrate.php:1146
+msgid "2.2 Upload the backup with FTP client to backup directory %s in destination site, then click <strong>Scan uploaded backup or received backup</strong> button."
+msgstr "2.2 FTPクライアントで保存先サイトのバックアップディレクトリ「%s」にバックアップをアップロードし、<strong>アップロードしたバックアップ、または受け取ったバックアップをスキャン</strong> ボタンをクリックする。"
+
+#: includes/class-wpvivid-migrate.php:1147
+msgid "3. Once done, the backup appears in backups list. Then, restore the backup."
+msgstr "3. 完了すると、バックアップがバックアップリストに表示されます。次に、バックアップを復元します。"
+
+#: includes/class-wpvivid-migrate.php:1301
+msgid "Note: The files you want to upload must be a backup created by WPvivid backup plugin. Make sure that uploading every part of a backup to the directory if the backup is split into many parts"
+msgstr "注意: アップロードするファイルは、WPvivid backup プラグインで作成されたバックアップである必要があります。バックアップが分割される場合、すべてのファイルをディレクトリにアップロードしたことを確認してください"
+
+#: includes/class-wpvivid-migrate.php:1142
+msgid "How to migrate Wordpress site manually to a new domain(site) with WPvivid backup plugin?"
+msgstr "WPvivid backup プラグインを使用して、新しいドメイン (サイト) に手動で WordPress サイトを移行するには ?"
+
+#: includes/class-wpvivid-migrate.php:1026
+msgid "The feature can help you transfer a Wordpress site to a new domain(site). It would be a convenient way to migrate your WP site from dev environment to live server or from old server to the new."
+msgstr "この機能は、WordPressサイトを新しいドメイン (サイト) に転送するのに役立ちます。開発環境から本番サーバーへ、または旧サーバ^から新サーバーへの移行に便利な機能です。"
+
+#: includes/class-wpvivid-migrate.php:1135
+msgid "2. Please migrate website with the manual way when using <strong>Local by Flywheel</strong> environment."
+msgstr "2. <strong>Local by Flywheel</strong> 環境を使用している場合は、手動でサイトを移行してください。"
+
+#: includes/class-wpvivid-migrate.php:891
+msgid "How to get a site key?"
+msgstr "サイトキーを取得するには ?"
+
+#: admin/class-wpvivid-admin.php:279
+msgid "1. Visit Key tab page of WPvivid backup plugin of destination site."
+msgstr "1. 宛先サイトの WPvivid backup プラグインの「キー」タブページにアクセスする。"
+
+#: admin/class-wpvivid-admin.php:280
+msgid "2. Generate a key by clicking Generate button and copy it."
+msgstr "2. 「生成」ボタンをクリックしてキーを生成し、コピーする。"
+
+#: admin/class-wpvivid-admin.php:281
+msgid "3. Go back to this page and paste the key in key box below. Lastly, click Save button."
+msgstr "3. このページに戻り、以下の「キー」ボックスに貼り付ける。最後に「保存」ボタンをクリックする。"
+
+#: includes/class-wpvivid-migrate.php:891
+msgid "Please paste the key below."
+msgstr "以下にキーを貼り付けてください。"
+
+#: includes/class-wpvivid-export-import.php:1124
+#: includes/class-wpvivid-export-import.php:1160
+#: includes/class-wpvivid-interface-mainwp.php:157
+#: includes/class-wpvivid-migrate.php:708 includes/class-wpvivid.php:645
+#: includes/class-wpvivid.php:966 includes/class-wpvivid.php:1193
+#: includes/new_backup/class-wpvivid-backup2.php:123
+#: includes/new_backup/class-wpvivid-backup2.php:1552
+msgid "A task is already running. Please wait until the running task is complete, and try again."
+msgstr "すでにタスクが実行されています。実行中のタスクが完了してから、再度実行してください。"
+
+#: includes/class-wpvivid-migrate.php:440
+msgid "Tips: For security reason, please choose an appropriate expiration time for the key."
+msgstr "ヒント: セキュリティ上の理由から、キーの適切な有効期限を選択してください。"
+
+#: includes/class-wpvivid-migrate.php:433
+msgid "The key will expire in "
+msgstr "キーの有効期限 "
+
+#: includes/class-wpvivid-migrate.php:431
+msgid "In order to allow another site to send a backup to this site, please generate a key below. Once the key is generated, this site is ready to receive a backup from another site. Then, please copy and paste the key in sending site and save it."
+msgstr "他のサイトからこのサイトへのバックアップ送信を許可するには、以下でキーを生成してください。キーが生成されると、このサイトは他のサイトからのバックアップを受信できます。キーをコピーして、送信側サイトに貼り付け、保存してください。"
+
+#: includes/class-wpvivid-mail-report.php:1103 includes/class-wpvivid.php:5615
+msgid "Unable to send email. Please check the configuration of email server."
+msgstr "メールを送信できません。メールサーバーの構成を確認してください。"
+
+#: includes/class-wpvivid-function-realize.php:161
+#: includes/class-wpvivid-function-realize.php:173
+#: includes/class-wpvivid-function-realize.php:190
+#: includes/class-wpvivid.php:696 includes/class-wpvivid.php:756
+#: includes/class-wpvivid.php:811 includes/class-wpvivid.php:5947
+#: includes/staging/class-wpvivid-staging-log-page.php:881
+#: includes/staging/class-wpvivid-staging-log-page.php:891
+#: includes/staging/class-wpvivid-staging-log-page.php:1086
+#: includes/staging/class-wpvivid-staging-log-page.php:1100
+msgid "The log not found."
+msgstr "ログが見つかりません。"
+
+#: includes/class-wpvivid-function-realize.php:156
+#: includes/class-wpvivid-function-realize.php:184
+#: includes/class-wpvivid.php:688 includes/class-wpvivid.php:802
+msgid "Retrieving the backup information failed while showing log. Please try again later."
+msgstr "ログ表示中にバックアップ情報の取得に失敗しました。あとでもう一度お試しください。"
+
+#: includes/class-wpvivid-interface-mainwp.php:333
+#: includes/class-wpvivid-public-interface.php:225
+#: includes/class-wpvivid.php:723 includes/class-wpvivid.php:747
+#: includes/class-wpvivid.php:836 includes/class-wpvivid.php:5972
+#: includes/staging/class-wpvivid-staging-log-page.php:916
+#: includes/staging/class-wpvivid-staging-log-page.php:1163
+msgid "Reading the log failed. Please try again."
+msgstr "ログの読み込みに失敗しました。もう一度お試しください。"
+
+#: includes/class-wpvivid-interface-mainwp.php:271
+#: includes/class-wpvivid-interface-mainwp.php:342
+#: includes/class-wpvivid-interface-mainwp.php:395
+#: includes/class-wpvivid-public-interface.php:204
+#: includes/class-wpvivid-public-interface.php:234
+#: includes/class-wpvivid-public-interface.php:263
+#: includes/class-wpvivid.php:706 includes/class-wpvivid.php:765
+#: includes/class-wpvivid.php:820 includes/class-wpvivid.php:5956
+#: includes/staging/class-wpvivid-staging-log-page.php:900
+msgid "Unable to open the log file."
+msgstr "ログファイルを開けません。"
+
+#: includes/class-wpvivid-interface-mainwp.php:182
+#: includes/class-wpvivid-migrate.php:753
+#: includes/class-wpvivid-public-interface.php:60
+#: includes/class-wpvivid.php:636
+msgid "Error occurred while parsing the request data. Please try to run backup again."
+msgstr "リクエストデータのパース中にエラーが発生しました。もう一度バックアップをお試しください。"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:121
+#: includes/customclass/class-wpvivid-sftpclass.php:236
+msgid "Enter an absolute path and a custom subdirectory (optional) for holding the backups of current website. For example, /var/customfolder/"
+msgstr "現在のサイトのバックアップを保持する、絶対パスとオプションでカスタムサブディレクトリを入力してください。例えば、/var/customfolder/"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:116
+#: includes/customclass/class-wpvivid-sftpclass.php:231
+msgid "Absolute path must exist(e.g. /var)"
+msgstr "絶対パスは必須です (例: /var)"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:109
+#: includes/customclass/class-wpvivid-sftpclass.php:224
+msgid "Enter the server port."
+msgstr "サーバーポートを入力してください。"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:97
+#: includes/customclass/class-wpvivid-sftpclass.php:212
+msgid "Enter the user password."
+msgstr "ユーザーパスワードを入力してください。"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:85
+#: includes/customclass/class-wpvivid-sftpclass.php:200
+msgid "Enter the user name."
+msgstr "ユーザー名を入力してください。"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:73
+#: includes/customclass/class-wpvivid-sftpclass.php:188
+msgid "Enter the server address."
+msgstr "サーバーアドレスを入力してください。"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:48
+#: includes/customclass/class-wpvivid-sftpclass.php:163
+msgid "Enter Your SFTP Account"
+msgstr "SFTP アカウントを入力してください"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:187
+msgid "The simplexml extension is not detected. Please install the extension first."
+msgstr "simplexml 拡張機能を検出できません。まず、拡張機能をインストールしてください。"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:165
+#: includes/customclass/class-wpvivid-amazons3-plus.php:289
+msgid "Check the option to use Amazon S3 server-side encryption to protect data."
+msgstr "データの保護に Amazon S3サーバーサイド暗号化を使用するには、オプションをチェックしてください。"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:159
+#: includes/customclass/class-wpvivid-amazons3-plus.php:283
+msgid "Server-side encryption."
+msgstr "サーバーサイド暗号化。"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:151
+#: includes/customclass/class-wpvivid-amazons3-plus.php:275
+msgid "Check the option to use Amazon S3 Standard-Infrequent Access (S3 Standard-IA) storage class for data transfer."
+msgstr "データ転送に Amazon S3 Standard-Infrequent Access (S3 Standard-IA) ストレージクラスを使用するには、オプションをチェックしてください。"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:145
+#: includes/customclass/class-wpvivid-amazons3-plus.php:269
+msgid "Storage class: Standard (infrequent access)."
+msgstr "ストレージクラス: 標準 (低頻度のアクセス)。"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:111
+#: includes/customclass/class-wpvivid-amazons3-plus.php:249
+msgid "Enter an existed Bucket to create a custom backup storage directory."
+msgstr "カスタムバックアップストレージディレクトリを作成するには、既存のバケットを入力してください。"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:123
+#: includes/customclass/class-wpvivid-amazons3-plus.php:261
+msgid "Customize the directory where you want to store backups within the Bucket."
+msgstr "バケット内のバックアップを保存するディレクトリをカスタマイズします。"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:99
+#: includes/customclass/class-wpvivid-amazons3-plus.php:237
+msgid "Enter your Amazon S3 secret key."
+msgstr "Amazon S3 のシークレットキーを入力してください。"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:99
+#: includes/customclass/class-wpvivid-amazons3-plus.php:237
+msgid "How to get an Amazon S3 secret key."
+msgstr "Amazon S3 のシークレットキーの入手方法。"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:87
+#: includes/customclass/class-wpvivid-amazons3-plus.php:225
+msgid "How to get an AmazonS3 access key."
+msgstr "Amazon S3 のアクセスキーの入手方法。"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:87
+#: includes/customclass/class-wpvivid-amazons3-plus.php:225
+msgid "Enter your Amazon S3 access key."
+msgstr "Amazon S3 のアクセスキーを入力してください。"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:62
+#: includes/customclass/class-wpvivid-amazons3-plus.php:200
+msgid "Enter Your Amazon S3 Account"
+msgstr "Amazon S3 のアカウントを入力してください"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:70
+#: includes/customclass/class-wpvivid-amazons3-plus.php:208
+msgid "Enter a unique alias: e.g. Amazon S3-001"
+msgstr "一意の別名を入力してください: 例: Amazon S3-001"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:56
+#: includes/customclass/class-wpvivid-sftpclass.php:171
+msgid "Enter a unique alias: e.g. SFTP-001"
+msgstr "一意の別名を入力してください: 例: SFTP-001"
+
+#: includes/customclass/class-wpvivid-one-drive.php:221
+#: includes/customclass/class-wpvivid-one-drive.php:437
+msgid "Enter a unique alias: e.g. OneDrive-001"
+msgstr "一意の別名を入力してください: 例: OneDrive-001"
+
+#: includes/customclass/class-wpvivid-one-drive.php:214
+#: includes/customclass/class-wpvivid-one-drive.php:430
+msgid "Enter Your Microsoft OneDrive Information"
+msgstr "Microsoft OneDrive の情報を入力してください"
+
+#: includes/customclass/class-wpvivid-one-drive.php:208
+#: includes/customclass/class-wpvivid-one-drive.php:390
+msgid "Please read <a target=\"_blank\" href=\"https://wpvivid.com/privacy-policy\" style=\"text-decoration: none;\">this privacy policy</a> for use of our Microsoft OneDrive authorization app (none of your backup data is sent to us)."
+msgstr "当社の Microsoft OneDrive 認証アプリの使用については、<a target=\"_blank\" href=\"https://wpvivid.com/privacy-policy\" style=\"text-decoration: none;\">このプライバシーポリシー</a>をお読みください (お客様のバックアップデータは一切当社に送信されません)。"
+
+#: includes/customclass/class-wpvivid-one-drive.php:194
+msgid "Microsoft OneDrive"
+msgstr "Microsoft OneDrive"
+
+#: includes/customclass/class-wpvivid-one-drive.php:182
+msgid "You have authenticated the Microsoft OneDrive account as your remote storage."
+msgstr "リモートストレージとして Microsoft OneDrive のアカウントを認証しました。"
+
+#: includes/customclass/class-wpvivid-google-drive.php:416
+msgid "Authenticate with Google Drive"
+msgstr "Google Drive で認証"
+
+#: includes/customclass/class-wpvivid-one-drive.php:400
+msgid "Authenticate with Microsoft OneDrive"
+msgstr "Microsoft OneDrive で認証"
+
+#: includes/customclass/class-wpvivid-google-drive.php:237
+#: includes/customclass/class-wpvivid-google-drive.php:454
+msgid "Enter a unique alias: e.g. Google Drive-001"
+msgstr "一意の別名を入力してください: 例: Google Drive-001"
+
+#: includes/customclass/class-wpvivid-google-drive.php:230
+#: includes/customclass/class-wpvivid-google-drive.php:447
+msgid "Enter Your Google Drive Information"
+msgstr "Google Drive の情報を入力してください"
+
+#: includes/customclass/class-wpvivid-google-drive.php:224
+#: includes/customclass/class-wpvivid-google-drive.php:406
+msgid "Please read <a target=\"_blank\" href=\"https://wpvivid.com/privacy-policy\" style=\"text-decoration: none;\">this privacy policy</a> for use of our Google Drive authorization app (none of your backup data is sent to us)."
+msgstr "当社の Google Drive 認証アプリの使用については、<a target=\"_blank\" href=\"https://wpvivid.com/privacy-policy\" style=\"text-decoration: none;\">このプライバシーポリシー</a>をお読みください (お客様のバックアップデータは一切当社に送信されません)。"
+
+#: includes/customclass/class-wpvivid-google-drive.php:198
+msgid "You have authenticated the Google Drive account as your remote storage."
+msgstr "リモートストレージとして Google Drive のアカウントを認証しました。"
+
+#: includes/customclass/class-wpvivid-google-drive.php:108
+msgid "Authentication failed, the format of the client_secrets.json file is incorrect. Please delete and re-install the plugin to recreate the file."
+msgstr "認証に失敗しました。client_secrets.json ファイルの形式が正しくありません。プラグインを削除して再インストールし、ファイルを再作成してください。"
+
+#: includes/customclass/class-wpvivid-google-drive.php:104
+msgid "Authentication failed, the client_secrets.json file is missing. Please make sure the client_secrets.json file is in wpvivid-backuprestore\\includes\\customclass directory."
+msgstr "認証に失敗しました。client_secrets.json ファイルがありません。client_secrets.json ファイルが wpvivid-backuprestore\\includes\\customclass ディレクトリにあることを確認してください。"
+
+#: includes/customclass/class-wpvivid-s3compat.php:495
+#: includes/customclass/class-wpvivid-s3compat.php:610
+msgid "Enter the DigitalOcean Endpoint for the storage"
+msgstr "ストレージ用の DigitalOcean Endpoint を入力してください"
+
+#: includes/customclass/class-wpvivid-s3compat.php:483
+#: includes/customclass/class-wpvivid-s3compat.php:598
+msgid "Customize the directory where you want to store backups within the Space."
+msgstr "スペース内のバックアップを保存するディレクトリをカスタマイズします。"
+
+#: includes/customclass/class-wpvivid-s3compat.php:471
+#: includes/customclass/class-wpvivid-s3compat.php:586
+msgid "Enter an existed Space to create a custom backup storage directory."
+msgstr "カスタムバックアップストレージディレクトリを作成するには、既存のスペースを入力してください。"
+
+#: includes/customclass/class-wpvivid-s3compat.php:466
+#: includes/customclass/class-wpvivid-s3compat.php:581
+msgid "Space Name(e.g. test)"
+msgstr "スペース名 (例: test)"
+
+#: includes/customclass/class-wpvivid-s3compat.php:459
+#: includes/customclass/class-wpvivid-s3compat.php:574
+msgid "Enter your DigitalOcean Spaces secret key"
+msgstr "DigitalOcean Spaces のシークレットキーを入力してください"
+
+#: includes/customclass/class-wpvivid-s3compat.php:447
+#: includes/customclass/class-wpvivid-s3compat.php:562
+msgid "Enter your DigitalOcean Spaces access key"
+msgstr "DigitalOcean Spaces のアクセスキーを入力してください"
+
+#: includes/customclass/class-wpvivid-s3compat.php:430
+#: includes/customclass/class-wpvivid-s3compat.php:545
+msgid "Enter a unique alias: e.g. DOS-001"
+msgstr "一意の別名を入力してください: 例: DOS-001"
+
+#: includes/customclass/class-wpvivid-s3compat.php:422
+#: includes/customclass/class-wpvivid-s3compat.php:537
+msgid "Enter Your DigitalOcean Spaces Account"
+msgstr "DigitalOcean Spaces のアカウントを入力してください"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:173
+#: includes/customclass/class-wpvivid-ftpclass.php:153
+#: includes/customclass/class-wpvivid-s3compat.php:517
+#: includes/customclass/class-wpvivid-sftpclass.php:143
+msgid "Test and Add"
+msgstr "テストと追加"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:145
+#: includes/customclass/class-wpvivid-ftpclass.php:246
+msgid "Uncheck the option to use FTP active mode when transferring files. Make sure the FTP server you are configuring supports the active FTP mode."
+msgstr "ファイル転送時に FTP アクティブモードを使用するには、オプションのチェックをオフにしてください。設定する FTP サーバーが FTP アクティブモードに対応していることを確認してください。"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:117
+#: includes/customclass/class-wpvivid-ftpclass.php:232
+msgid "Enter an absolute path and a custom subdirectory (optional) for holding the backups of current website. For example, /home/username/customfolder"
+msgstr "現在のサイトのバックアップを保持する、絶対パスとオプションでカスタムサブディレクトリを入力してください。例: /home/username/customfolder"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:112
+#: includes/customclass/class-wpvivid-ftpclass.php:227
+msgid "Absolute path must exist(e.g. /home/username)"
+msgstr "絶対パスは存在する必要があります (例: /home/username)"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:105
+#: includes/customclass/class-wpvivid-ftpclass.php:220
+msgid "Enter the FTP server password."
+msgstr "FTP サーバーパスワードを入力してください。"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:93
+#: includes/customclass/class-wpvivid-ftpclass.php:208
+msgid "Enter your FTP server user name."
+msgstr "FTP サーバーユーザー名を入力してください。"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:81
+msgid "Pro feature: Change the FTP default port number"
+msgstr "プロ版の機能: FTP のデフォルトのポート番号の変更"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:69
+#: includes/customclass/class-wpvivid-ftpclass.php:196
+msgid "Enter the FTP server."
+msgstr "FTP サーバーを入力してください。"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:64
+#: includes/customclass/class-wpvivid-ftpclass.php:191
+msgid "FTP server (server's port 21)"
+msgstr "FTP サーバー (サーバーのポート 21)"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:52
+#: includes/customclass/class-wpvivid-ftpclass.php:179
+msgid "Enter an unique alias: e.g. FTP-001"
+msgstr "一意の別名を入力してください: 例: FTP-001"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:45
+#: includes/customclass/class-wpvivid-ftpclass.php:172
+msgid "Enter Your FTP Account"
+msgstr "FTP アカウントを入力してください"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:302
+#: includes/customclass/class-wpvivid-dropbox.php:741
+#: includes/customclass/class-wpvivid-ftpclass.php:259
+#: includes/customclass/class-wpvivid-google-drive.php:471
+#: includes/customclass/class-wpvivid-one-drive.php:454
+#: includes/customclass/class-wpvivid-s3compat.php:623
+#: includes/customclass/class-wpvivid-sftpclass.php:249
+msgid "Click the button to save the changes."
+msgstr "変更を保存するには、ボタンをクリックしてください。"
+
+#: includes/customclass/class-wpvivid-dropbox.php:540
+#: includes/customclass/class-wpvivid-google-drive.php:266
+#: includes/customclass/class-wpvivid-one-drive.php:250
+msgid "Pro feature: Create a directory for storing the backups of the site"
+msgstr "プロ版の機能: サイトのバックアップを保存するディレクトリの作成"
+
+#: includes/customclass/class-wpvivid-dropbox.php:528
+#: includes/customclass/class-wpvivid-google-drive.php:254
+#: includes/customclass/class-wpvivid-one-drive.php:238
+msgid "All backups will be uploaded to this directory."
+msgstr "すべてのバックアップはこのディレクトリにアップロードされます。"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:137
+#: includes/customclass/class-wpvivid-dropbox.php:554
+#: includes/customclass/class-wpvivid-ftpclass.php:131
+#: includes/customclass/class-wpvivid-google-drive.php:280
+#: includes/customclass/class-wpvivid-one-drive.php:264
+#: includes/customclass/class-wpvivid-s3compat.php:509
+#: includes/customclass/class-wpvivid-sftpclass.php:135
+msgid "Once checked, all this sites backups sent to a remote storage destination will be uploaded to this storage by default."
+msgstr "チェックすると、リモートストレージに送信されたすべてのこのサイトのバックアップは、デフォルトでこのストレージにアップロードされます。"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:75
+#: includes/customclass/class-wpvivid-amazons3-plus.php:213
+#: includes/customclass/class-wpvivid-dropbox.php:516
+#: includes/customclass/class-wpvivid-dropbox.php:729
+#: includes/customclass/class-wpvivid-ftpclass.php:57
+#: includes/customclass/class-wpvivid-ftpclass.php:184
+#: includes/customclass/class-wpvivid-google-drive.php:242
+#: includes/customclass/class-wpvivid-google-drive.php:459
+#: includes/customclass/class-wpvivid-one-drive.php:226
+#: includes/customclass/class-wpvivid-one-drive.php:442
+#: includes/customclass/class-wpvivid-s3compat.php:435
+#: includes/customclass/class-wpvivid-s3compat.php:550
+#: includes/customclass/class-wpvivid-sftpclass.php:61
+#: includes/customclass/class-wpvivid-sftpclass.php:176
+msgid "A name to help you identify the storage if you have multiple remote storage connected."
+msgstr "複数のリモートストレージを接続している場合に、ストレージを識別する名前。"
+
+#: includes/customclass/class-wpvivid-dropbox.php:511
+#: includes/customclass/class-wpvivid-dropbox.php:724
+msgid "Enter a unique alias: e.g. Dropbox-001"
+msgstr "一意の別名を入力してください: 例: Dropbox-001"
+
+#: includes/customclass/class-wpvivid-dropbox.php:504
+msgid "Enter Your Dropbox Information"
+msgstr "Dropbox の情報を入力してください"
+
+#: includes/customclass/class-wpvivid-dropbox.php:498
+#: includes/customclass/class-wpvivid-dropbox.php:677
+msgid "Please read <a target=\"_blank\" href=\"https://wpvivid.com/privacy-policy\" style=\"text-decoration: none;\">this privacy policy</a> for use of our Dropbox authorization app (none of your backup data is sent to us)."
+msgstr "当社の Dropbox 認証アプリの使用については、<a target=\"_blank\" href=\"https://wpvivid.com/privacy-policy\" style=\"text-decoration: none;\">このプライバシーポリシー</a>をお読みください (お客様のバックアップデータは一切当社に送信されません)。"
+
+#: includes/customclass/class-wpvivid-dropbox.php:473
+msgid "You have authenticated the Dropbox account as your remote storage."
+msgstr "リモートストレージとして Dropbox のアカウントを認証しました。"
+
+#: includes/class-wpvivid-backup.php:2341
+#: includes/new_backup/class-wpvivid-backup-task_2.php:527
+msgid "Backing up %s finished."
+msgstr "%s のバックアップが終了しました。"
+
+#: includes/class-wpvivid-backup.php:2333
+#: includes/new_backup/class-wpvivid-backup-task_2.php:484
+msgid "Start backing up %s."
+msgstr "%s のバックアップを開始しました。"
+
+#: includes/class-wpvivid-backup.php:1160
+#: includes/class-wpvivid-backup.php:1177
+#: includes/class-wpvivid-function-realize.php:56
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2671
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2691
+msgid "The backup will be canceled after backing up the current chunk ends."
+msgstr "現在のチャンクのバックアップが終了した後、バックアップはキャンセルされます。"
+
+#: includes/class-wpvivid-backup.php:1141
+#: includes/class-wpvivid-backup.php:1154
+#: includes/class-wpvivid-export-import.php:1309
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2652
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2665
+msgid "running time: "
+msgstr "実行時間: "
+
+#: includes/class-wpvivid-backup.php:1106
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2616
+msgid "Ready to backup. Progress: 0%, running time: 0second."
+msgstr "バックアップの準備ができました。進行状況: 0%、実行時間: 0秒。"
+
+#: includes/class-wpvivid-backup.php:1141
+#: includes/class-wpvivid-backup.php:1154
+#: includes/class-wpvivid-export-import.php:1309
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2652
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2665
+msgid "Progress: "
+msgstr "進行状況: "
+
+#: includes/class-wpvivid-importer.php:1883
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr "詳細は上に表示されます。インポーターは別のパーサーで再試行します..."
+
+#: includes/class-wpvivid-importer.php:1882
+#: includes/class-wpvivid-importer.php:1919
+#: includes/class-wpvivid-importer.php:1927
+msgid "There was an error when reading this WXR file"
+msgstr "WXR ファイルの読み込む中にエラーが発生しました"
+
+#: includes/class-wpvivid-importer.php:1729
+msgid "Fetching attachments is not enabled"
+msgstr "添付ファイルの取得が有効化されていません"
+
+#: includes/class-wpvivid-importer.php:1674
+#: includes/class-wpvivid-importer.php:1787
+msgid "File not exist, file:"
+msgstr "ファイルが存在しません。ファイル:"
+
+#: includes/class-wpvivid-importer.php:89
+msgid "Media Files Size"
+msgstr "メディア ファイルサイズ"
+
+#: includes/class-wpvivid-backup-uploader.php:650
+msgid "Scan uploaded backup or received backup"
+msgstr "アップロードされたバックアップ、または受信したバックアップのスキャン"
+
+#: includes/class-wpvivid-backup-uploader.php:647
+msgid "Tips: Click the button below to scan all uploaded or received backups in directory"
+msgstr "ヒント: ディレクトリ内のすべてのアップロードまたは受信したバックアップをスキャンするには、以下のボタンをクリックしてください"
+
+#: admin/partials/wpvivid-admin-display.php:63
+msgid "Warning: There is no default remote storage available for the scheduled backups, please set up it first."
+msgstr "警告: スケジュールバックアップに利用できるデフォルトのリモートストレージがありません。まず、最初に設定してください。"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2932
+msgid "Next Backup: "
+msgstr "次のバックアップ: "
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2928
+msgid "Schedule Status: "
+msgstr "スケジュールステータス: "
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2926
+msgid "Backup Schedule"
+msgstr "バックアップスケジュール"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2516
+msgid "Send Backup to Remote Storage:"
+msgstr "バックアップをリモートストレージに送信する:"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2512
+msgid "Save Backups to Local"
+msgstr "バックアップをローカルに保存する"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2481
+msgid "Local Storage Directory:"
+msgstr "ローカルストレージディレクトリ:"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2379
+#: includes/class-wpvivid-migrate.php:1214 includes/class-wpvivid.php:4153
+msgid "Network Connection:"
+msgstr "ネットワーク接続:"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2375
+#: includes/class-wpvivid-migrate.php:1210 includes/class-wpvivid.php:4149
+msgid "Uploaded:"
+msgstr "アップロード済み:"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1295
+msgid "The backup is stored on the remote storage, click on the button to download it to localhost."
+msgstr "バックアップはリモートストレージに保存されています。ボタンをクリックすると、ローカルホストにダウンロードします。"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1294
+msgid "Retrieve the backup to localhost"
+msgstr "バックアップをローカルホストに取得する"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1290
+msgid "Restore function will replace the current site's themes, plugins, uploads, database and/or other content directories with the existing equivalents in the selected backup."
+msgstr "リストア機能は、現在のサイトのテーマ、プラグイン、アップロード、データベースおよび、または他のコンテンツディレクトリを、選択したバックアップの既存のものと置き換えます。"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1289
+msgid "Please do not close the page or switch to other pages when a restore task is running, as it could trigger some unexpected errors."
+msgstr "復元タスクの実行中は、ページを閉じたり、他のページに切り替えたりしないでください。予期せぬエラーが発生する可能性があります。"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1288
+msgid "Restore backup from:"
+msgstr "バックアップを以下から復元する:"
+
+#: admin/class-wpvivid-admin.php:278
+msgid "Step Three: Click 'Restore' button"
+msgstr "ステップ3: 「復元」ボタンをクリックする"
+
+#: admin/class-wpvivid-admin.php:277
+msgid "Step Two: Choose an option to complete restore, if any"
+msgstr "ステップ2: 必要であれば、復元を完了するオプションを選択する"
+
+#: admin/class-wpvivid-admin.php:276
+msgid "Step One: In the backup list, click the 'Restore' button on the backup you want to restore. This will bring up the restore tab"
+msgstr "ステップ1: バックアップリストで、復元するバックアップの「復元」ボタンをクリックする。「復元」タブが表示されます"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1188
+#: admin/partials/wpvivid-backup-restore-page-display.php:2738
+msgid "This request might delete the backup being downloaded, are you sure you want to continue?"
+msgstr "この要求により、ダウンロード中のバックアップが削除される可能性がありますが、本当に続行しますか ?"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1183
+#: includes/class-wpvivid-export-import.php:395
+#: includes/snapshot/class-wpvivid-snapshot.php:1038
+msgid "Please select at least one item."
+msgstr "少なくとも 1 つの項目を選択してください。"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1144
+msgid "This request will delete the backup being downloaded, are you sure you want to continue?"
+msgstr "この要求により、ダウンロード中のバックアップが削除されますが、本当に続けますか？"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1135
+msgid "This backup is locked, are you sure to remove it? This backup will be deleted permanently from your hosting (localhost) and remote storages."
+msgstr "このバックアップはロックされていますが、本当に削除しますか ? このバックアップは、ホスティング（ローカルホスト）およびリモートストレージから永久に削除されます。"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:603
+msgid "Delete the selected backups"
+msgstr "選択したバックアップを削除"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:507
+msgid "How to restore your website from a backup(scheduled, manual, uploaded and received backup)"
+msgstr "バックアップ (スケジュールバックアップ、手動バックアップ、アップロードバックアップ、受信バックアップ) からサイトを復元する方法"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:501
+msgid "->If backups are stored in web server, the plugin will list all relevant files immediately."
+msgstr "->バックアップがウェブサーバーに保存されている場合、このプラグインは関連するすべてのファイルを直ちにリストアップします。"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:500
+msgid "->If backups are stored in remote storage, our plugin will retrieve the backup to your web server first. This may take a little time depending on the size of backup files. Please be patient. Then you can download them to your PC."
+msgstr "->バックアップがリモートストレージに保存されている場合、プラグインはまずウェブサーバーにバックアップを取得します。バックアップファイルのサイズによって少し時間がかかるかもしれません。しばらくお待ちください。その後、PCにそれらをダウンロードできます。"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:498
+msgid "About backup download"
+msgstr "バックアップのダウンロードについて"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:35
+#: admin/partials/wpvivid-remote-storage-page-display.php:336
+msgid "Remote Storage Alias"
+msgstr "リモートストレージの別名"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:34
+#: admin/partials/wpvivid-remote-storage-page-display.php:335
+msgid "Storage Provider"
+msgstr "ストレージプロバイダ"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:26
+#: admin/partials/wpvivid-remote-storage-page-display.php:327
+msgid "Please choose one storage to save your backups (remote storage)"
+msgstr "バックアップを保存するストレージを選択してください (リモートストレージ)"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:14
+#: admin/partials/wpvivid-remote-storage-page-display.php:320
+msgid "Storage Edit"
+msgstr "ストレージ編集"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:6
+#: admin/partials/wpvivid-remote-storage-page-display.php:318
+msgid "Storages"
+msgstr "ストレージ"
+
+#: admin/partials/wpvivid-settings-page-display.php:668
+msgid "e.g.  if you choose a chunk size of 2MB, a 8MB file will use 4 chunks. Decreasing this value will break the ISP's transmission limit, for example:512KB"
+msgstr "例: チャンクサイズ2MB を選択した場合、8MB のファイルでは4チャンクを使用します。この値を小さくすると、ISP の送信制限を抜けられます。例: 512KB"
+
+#: admin/partials/wpvivid-settings-page-display.php:678
+msgid "Adjust this value to apply for a temporary PHP memory limit for WPvivid backup plugin in restore process. We set this value to 256M by default. Increase the value if you encounter a memory exhausted error. Note: some web hosting providers may not support this."
+msgstr "WPvivid backup プラグインの復元処理において、一時的な PHP メモリ制限を適用するには、この値を調整してください。デフォルトでは256M に設定されています。メモリ不足エラーが発生した場合は、この値を増やしてください。注: 一部のウェブホスティングプロバイダでは、この値をサポートしていない場合があります。"
+
+#: admin/partials/wpvivid-settings-page-display.php:675
+msgid "PHP Memory Limit for restoration"
+msgstr "復元時のPHPメモリ制限"
+
+#: admin/partials/wpvivid-settings-page-display.php:650
+msgid "PHP Memory Limit for backup"
+msgstr "バックアップ時のPHPメモリ制限"
+
+#: admin/partials/wpvivid-settings-page-display.php:670
+msgid "PHP script execution timeout for restore"
+msgstr "復元時のPHPスクリプト実行タイムアウト"
+
+#: admin/partials/wpvivid-settings-page-display.php:645
+msgid "PHP script execution timeout for backup"
+msgstr "バックアップ時のPHPスクリプト実行タイムアウト"
+
+#: admin/partials/wpvivid-settings-page-display.php:643
+msgid "Using the option will ignore the file larger than the certain size in MB when backing up, '0' (zero) means unlimited."
+msgstr "このオプションを使用すると、指定のサイズ (MB) より大きなファイルはバックアップの際に無視されます。「0」を指定すると制限はありません。"
+
+#: admin/partials/wpvivid-settings-page-display.php:640
+msgid "Exclude the files which are larger than"
+msgstr "指定したサイズより大きなファイルは除外"
+
+#: admin/partials/wpvivid-settings-page-display.php:653
+msgid "Adjust this value to apply for a temporary PHP memory limit for WPvivid backup plugin to run a backup. We set this value to 256M by default. Increase the value if you encounter a memory exhausted error. Note: some web hosting providers may not support this."
+msgstr "WPvivid backup プラグインのバックアップ実行において、一時的な PHP メモリ制限を適用するには、この値を調整してください。デフォルトでは256M に設定されています。メモリ不足エラーが発生した場合は、この値を増やしてください。注: 一部のウェブホスティングプロバイダでは、この値をサポートしていない場合があります。"
+
+#: admin/partials/wpvivid-settings-page-display.php:673
+msgid "The time-out is not your server PHP time-out. With the execution time exhausted, our plugin will shut the process of restore down. If the progress of restore encounters a time-out, that means you have a medium or large sized website, please try to scale the value bigger."
+msgstr "タイムアウトは、サーバーの PHP のタイムアウトではありません。実行時間を使い果たすと、プラグインは復元処理をシャットダウンします。中型または大型のウェブサイトでは、復元の進行中にタイムアウトが発生する場合があります。エラーを回避するには、値を大きくしてください。"
+
+#: admin/partials/wpvivid-settings-page-display.php:648
+msgid "The time-out is not your server PHP time-out. With the execution time exhausted, our plugin will shut the process of backup down. If the progress of backup encounters a time-out, that means you have a medium or large sized website, please try to scale the value bigger."
+msgstr "タイムアウトは、サーバーの PHP のタイムアウトではありません。実行時間を使い果たすと、プラグインはバックアップ処理をシャットダウンします。中型または大型のウェブサイトでは、バックアップの進行中にタイムアウトが発生する場合があります。エラーを回避するには、値を大きくしてください。"
+
+#: admin/partials/wpvivid-settings-page-display.php:638
+msgid "Some web hosting providers limit large zip files (e.g. 200MB), and therefore splitting your backup into many parts is an ideal way to avoid hitting the limitation if you are running a big website.  Please try to adjust the value if you are encountering backup errors. If you use a value of 0 MB, any backup files won't be split."
+msgstr "ウェブホスティングプロバイダーによっては、大きな zip ファイル (例: 200MB) を制限している場合があります。したがって、大きなサイトを運営している場合、制限を避ける理想的な方法は、バックアップをいくつかの部分に分割することです。バックアップエラーが発生する場合は、この値を調整してみてください。0MBを使用すると、どのバックアップファイルも分割されません。"
+
+#: admin/partials/wpvivid-settings-page-display.php:635
+msgid "Compress Files Every"
+msgstr "あるサイズごとにファイルを圧縮"
+
+#: admin/partials/wpvivid-settings-page-display.php:612
+msgid "It is recommended to choose PDO option if pdo_mysql extension is installed on your server, which lets you backup and restore your site faster."
+msgstr "サーバーに pdo_mysql エクステンションをインストールしている場合は、PDO オプションの選択が推奨されます。サイトのバックアップと復元をより速く行えます。"
+
+#: admin/partials/wpvivid-settings-page-display.php:606
+msgid "WPDB option has a better compatibility, but the speed of backup and restore is slower."
+msgstr "WPDB オプションは互換性に優れますが、バックアップと復元のスピードは遅くなります。"
+
+#: admin/partials/wpvivid-settings-page-display.php:601
+msgid "Database access method."
+msgstr "データベースアクセス方式。"
+
+#: admin/partials/wpvivid-settings-page-display.php:455
+msgid "Importing the json file can help you set WPvivid's configuration on another wordpress site quickly."
+msgstr "json ファイルをインポートすることで、別の WordPressサイトに WPvivid の設定を素早く設定できます。"
+
+#: admin/partials/wpvivid-settings-page-display.php:450
+msgid "Click 'Export' button to save WPvivid settings on your local computer."
+msgstr "WPvivid の設定をローカルコンピュータに保存するには「エクスポート」ボタンをクリックしてください。"
+
+#: admin/partials/wpvivid-settings-page-display.php:316
+msgid "Calculate Sizes"
+msgstr "サイズを算出"
+
+#: admin/partials/wpvivid-settings-page-display.php:308
+msgid "Web-server disk space in use by WPvivid"
+msgstr "WPvivid で使用する Web サーバーのディスクスペース"
+
+#: admin/partials/wpvivid-settings-page-display.php:261
+msgid "Pro feature: Add another email address to get report"
+msgstr "プロ版の機能: レポートを取得する別のメールアドレスを追加"
+
+#: admin/partials/wpvivid-settings-page-display.php:257
+msgid "Only send an email notification when a backup fails"
+msgstr "バックアップが失敗した場合のみ、メール通知を送信する"
+
+#: admin/partials/wpvivid-settings-page-display.php:253
+msgid "Always send an email notification when a backup is complete"
+msgstr "バックアップが完了した際には常にメール通知を送信する"
+
+#: admin/partials/wpvivid-settings-page-display.php:234
+msgid "Enable email report"
+msgstr "メールレポートの有効化"
+
+#: admin/partials/wpvivid-settings-page-display.php:229
+msgid "In order to use this function, please install a <strong><a target=\"_blank\" href=\"https://wpvivid.com/8-best-smtp-plugins-for-wordpress.html\" style=\"text-decoration: none;\">WordPress SMTP plugin</a></strong> of your preference and configure your SMTP server first. This is because WordPress uses the PHP Mail function to send its emails by default, which is not supported by many hosts and can cause issues if it is not set properly."
+msgstr "この機能を使用するには、まず好きな <strong><a target=\"_blank\" href=\"https://wpvivid.com/8-best-smtp-plugins-for-wordpress.html\" style=\"text-decoration: none;\">WordPress SMTP プラグイン</a></strong>をインストールし、SMTP サーバーを構成してください。これは、WordPress がデフォルトで PHP Mail 関数を使用してメールを送信するためです。多くのホストではサポートされておらず、適切に設定されていない場合は問題が発生する可能性があります。"
+
+#: admin/partials/wpvivid-settings-page-display.php:169
+msgid "The action is irreversible! It will remove all backups are out-of-date (including local web server and remote storage) if they exist."
+msgstr "この操作は元に戻せません。ローカルの Web サーバーとリモートストレージを含む、すべての古いバックアップが削除されます。"
+
+#: admin/partials/wpvivid-settings-page-display.php:156
+msgid "Remote Storage Directory:"
+msgstr "リモートストレージディレクトリ:"
+
+#: admin/partials/wpvivid-settings-page-display.php:155
+msgid "Web Server Directory:"
+msgstr "Web サーバーディレクトリ:"
+
+#: admin/partials/wpvivid-settings-page-display.php:151
+msgid "Remove out-of-date backups"
+msgstr "古いバックアップの削除"
+
+#: admin/partials/wpvivid-settings-page-display.php:146
+msgid "Display domain(url) of current site in backup name. (e.g. domain_wpvivid-5ceb938b6dca9_2019-05-27-07-36_backup_all.zip)"
+msgstr "バックアップ名に現在のサイトのドメイン (URL) を表示する。(例: domain_wpvivid-5ceb938b6dca9_2019-05-27-07-36_backup_all.zip)"
+
+#: admin/partials/wpvivid-settings-page-display.php:141
+msgid "Local storage directory:"
+msgstr "ローカルストレージディレクトリ:"
+
+#: admin/partials/wpvivid-settings-page-display.php:139
+msgid "Name your folder, this folder must be writable for creating backup files."
+msgstr "フォルダに名前をつけてください。このフォルダは、バックアップファイルの作成のため書き込み可能である必要があります。"
+
+#: admin/partials/wpvivid-settings-page-display.php:126
+msgid "Keep storing the backups in localhost after uploading to remote storage"
+msgstr "リモートストレージにアップロードした後、バックアップをローカルホストに保存する"
+
+#: admin/partials/wpvivid-settings-page-display.php:114
+msgid "Show WPvivid backup plugin on top admin bar"
+msgstr "WPvivid backup プラグインを画面上部の管理バーに表示する"
+
+#: admin/partials/wpvivid-settings-page-display.php:103
+msgid "Pro feature: Retain more backups"
+msgstr "プロ版の機能: より多くのバックアップを保持"
+
+#: admin/partials/wpvivid-settings-page-display.php:103
+msgid "backups retained"
+msgstr "バックアップの保持"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:396
+#: admin/partials/wpvivid-schedule-page-display.php:131
+#: includes/class-wpvivid-migrate.php:1158
+msgid "WordPress Files (Exclude Database)"
+msgstr "WordPress ファイル (データベース以外)"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:392
+#: admin/partials/wpvivid-schedule-page-display.php:126
+#: includes/class-wpvivid-migrate.php:1154
+msgid "Database + Files (WordPress Files)"
+msgstr "データベース + ファイル (WordPress ファイル)"
+
+#: admin/partials/wpvivid-schedule-page-display.php:118
+msgid "Being subjected to mechanisms of PHP, a scheduled backup task for your site will be triggered only when the site receives at least a visit at any page."
+msgstr "PHPの機構に従うと、サイトのスケジュールバックアップタスクは、サイトが少なくとも任意のページにアクセスされた場合にのみトリガーされます。"
+
+#: admin/partials/wpvivid-schedule-page-display.php:117
+msgid "Scheduled job will start at <strong>UTC</strong> time:"
+msgstr "スケジュールジョブの開始は <strong>UTC</strong> 時:"
+
+#: admin/partials/wpvivid-schedule-page-display.php:85
+msgid "Highlighted icon illuminates that you have choosed a remote storage to store backups"
+msgstr "ハイライトのアイコンは、バックアップの保存用にリモートストレージを選択したことを示します"
+
+#: admin/partials/wpvivid-schedule-page-display.php:20
+msgid "Enable Incremental Backup"
+msgstr "増分バックアップの有効化"
+
+#: admin/partials/wpvivid-schedule-page-display.php:15
+msgid "Enable backup schedule"
+msgstr "バックアップスケジュールの有効化"
+
+#: admin/partials/wpvivid-schedule-page-display.php:7
+msgid "Schedule Settings"
+msgstr "スケジュール設定"
+
+#: admin/class-wpvivid-admin.php:1607
+msgid "4. Install, claim and update WPvivid Backup Pro for child sites in bulk"
+msgstr "4. 子サイト用に一括して、WPvivid Backup Pro をインストール、請求、アップデートする"
+
+#: admin/class-wpvivid-admin.php:1612
+msgid "5. Set up remote storage for child sites in bulk (for WPvivid Backup Pro only)"
+msgstr "5. 子サイトのリモートストレージを一括で設定する (WPvivid Backup Pro のみ)"
+
+#: admin/class-wpvivid-admin.php:1602
+msgid "3. Set WPvivid Backup Free and Pro settings for all child sites"
+msgstr "3. すべての子サイトに WPvivid Backup Free and Pro を設定する"
+
+#: admin/class-wpvivid-admin.php:1598
+msgid "2. Set backup schedules for all child sites"
+msgstr "2. すべての子サイトにバックアップスケジュールを設定する"
+
+#: admin/class-wpvivid-admin.php:1595
+msgid "1. Create and download backups for a specific child site"
+msgstr "1. 特定の子サイトのバックアップを作成、ダウンロードする"
+
+#: admin/class-wpvivid-admin.php:1592
+msgid "Download WPvivid Backup for MainWP"
+msgstr "WPvivid Backup for MainWP のダウンロード"
+
+#: admin/class-wpvivid-admin.php:1589
+msgid "If you are a MainWP user, you can set up and control WPvivid Backup Free and Pro for every child site directly from your MainWP dashboard, using our WPvivid Backup for MainWP extension."
+msgstr "MainWP ユーザーの場合、WPvivid Backup for MainWP 拡張機能を使用すると、MainWP ダッシュボードから直接すべての子サイトの WPvivid Backup Free and Pro をセットアップ、制御できます。"
+
+#: admin/class-wpvivid-admin.php:1342
+msgid "Website Info Value"
+msgstr "Web サイト情報の値"
+
+#: admin/class-wpvivid-admin.php:1341
+msgid "Website Info Key"
+msgstr "Web サイト情報のキー"
+
+#: admin/class-wpvivid-admin.php:1334
+msgid "If you didn’t configure SMTP on your site, click the button below to download the relevant information (website info and error logs) to your PC when you are encountering some errors. Sending the files to us will help us diagnose what happened."
+msgstr "SMTP を設定していないサイトで何らかのエラーが発生した場合、下のボタンをクリックして、関連情報 (ウェブサイト情報、エラーログ) を PC にダウンロードしてください。ファイルを送ることで、何が起こったかを診断できます。"
+
+#: admin/class-wpvivid-admin.php:1334
+msgid "Method 2."
+msgstr "方法2。"
+
+#: admin/class-wpvivid-admin.php:1330
+msgid "Send Debug Information to Us"
+msgstr "デバッグ情報を送信する"
+
+#: admin/class-wpvivid-admin.php:1327
+msgid "Please describe your problem here."
+msgstr "問題点を記述してください。"
+
+#: admin/class-wpvivid-admin.php:1318
+msgid "My web hosting provider is:"
+msgstr "ホスティングプロバイダー:"
+
+#: admin/class-wpvivid-admin.php:1306
+msgid "I am using:"
+msgstr "使用中:"
+
+#: admin/class-wpvivid-admin.php:1300
+msgid "WPvivid support email:"
+msgstr "WPvivid サポートメール:"
+
+#: admin/class-wpvivid-admin.php:1297
+msgid "If you have configured SMTP on your site, enter your email address and click the button below to send us the relevant information (website info and errors logs) when you are encountering errors. This will help us figure out what happened. Once the issue is resolved, we will inform you by your email address."
+msgstr "サイトに SMTP を設定している場合、メールアドレスを入力し、下のボタンをクリックして、エラー発生時の関連情報 (ウェブサイト情報とエラーログ) を送信してください。何が起きたかの解明に役立ちます。問題が解決したら、お客様のメールアドレス宛にお知らせします。"
+
+#: admin/class-wpvivid-admin.php:1297
+msgid "Method 1."
+msgstr "方法1。"
+
+#: admin/class-wpvivid-admin.php:1295
+msgid "There are two ways available to send us the debug information. The first one is recommended."
+msgstr "デバッグ情報の送信には、2つの方法があります。最初の方法をお勧めします。"
+
+#: admin/class-wpvivid-admin.php:1044
+msgid "Remote Storage"
+msgstr "リモートストレージ"
+
+#: admin/class-wpvivid-admin.php:863
+msgid "Class PclZip is not detected. Please update or reinstall your WordPress."
+msgstr "クラス PclZip が検出されません。WordPress をアップデートまたは再インストールしてください。"
+
+#: admin/class-wpvivid-admin.php:857
+msgid "The %s extensions are not detected. Please install the extensions first."
+msgstr "%s 拡張機能を検出できません。まず、拡張機能をインストールしてください。"
+
+#: admin/class-wpvivid-admin.php:854
+msgid "The %s extension is not detected. Please install the extension first."
+msgstr "%s 拡張機能を検出できません。まず、拡張機能をインストールしてください。"
+
+#: admin/class-wpvivid-admin.php:732
+msgid "As Amazon S3 and DigitalOcean Space have upgraded their connection methods, please delete the previous connections and re-add your Amazon S3/DigitalOcean Space accounts to make sure the connections work."
+msgstr "Amazon S3 および DigitalOcean Space の接続方法がアップグレードされたため、以前の接続を削除し、Amazon S3 または DigitalOcean Space のアカウントを再追加して、接続できるかどうか確認してください。"
+
+#: admin/class-wpvivid-admin.php:588
+#: admin/partials/wpvivid-backup-restore-page-display.php:1712
+#: admin/partials/wpvivid-backup-restore-page-display.php:1725
+#: admin/partials/wpvivid-backup-restore-page-display.php:1736
+msgid "Restore completed successfully."
+msgstr "復元が完了しました。"
+
+#: admin/class-wpvivid-admin.php:582
+msgid "Cheers! WPvivid Backup plugin has restored successfully your website. If you found WPvivid Backup plugin helpful, a 5-star rating would be highly appreciated, which motivates us to keep providing new features."
+msgstr "おめでとうございます ! WPvivid Backup プラグインは、Web サイトを正常に復元しました。WPvivid Backup プラグインが役に立った場合、5つ星の評価をいただけると、新しい機能を提供し続けるモチベーションになります。"
+
+#: admin/class-wpvivid-admin.php:567
+msgid "Migration is complete and htaccess file is replaced. In order to successfully complete the migration, you'd better reinstall 301 redirect plugin, firewall and security plugin, and caching plugin if they exist."
+msgstr "移行が完了し、htaccess ファイルが置換されました。移行を完了するには、301リダイレクトプラグイン、ファイアウォールとセキュリティプラグイン、キャッシュプラグインがある場合、これらを再インストールしてください。"
+
+#: admin/class-wpvivid-admin.php:275
+msgid "Calculating the size of files, folder and database timed out. If you continue to receive this error, please go to the plugin settings, uncheck 'Calculate the size of files, folder and database before backing up', save changes, then try again."
+msgstr "ファイル、フォルダ、データベースのサイズの計算がタイムアウトしました。このエラーが続く場合は、プラグインの設定で「バックアップ前にファイル、フォルダ、データベースのサイズを計算する」のチェックを外し、変更を保存してから、もう一度試してみてください。"
+
+#: admin/class-wpvivid-admin.php:274
+msgid "Warning: The alias already exists in storage list."
+msgstr "警告: 別名がすでにストレージリストに存在します。"
+
+#: admin/class-wpvivid-admin.php:273
+#: includes/customclass/class-wpvivid-ftpclass.php:302
+#: includes/customclass/class-wpvivid-ftpclass.php:310
+msgid "Warning: An alias for remote storage is required."
+msgstr "警告: リモートストレージの別名が必要です。"
+
+#: admin/class-wpvivid-admin.php:193
+msgid "Migrate WordPress"
+msgstr "WordPress の移行"
+
+#: admin/class-wpvivid-admin.php:192
+msgid "Restore Your Site from a Backup"
+msgstr "バックアップからサイトを復元"
+
+#: admin/class-wpvivid-admin.php:191
+msgid "Create a Manual Backup"
+msgstr "手動バックアップを作成"
+
+#: admin/class-wpvivid-admin.php:186
+#: includes/staging/class-wpvivid-staging.php:95
+msgid "How-to"
+msgstr "ヒント"
+
+#: admin/class-wpvivid-admin.php:179
+msgid "Adjust <a href=\"https://docs.wpvivid.com/wpvivid-backup-free-advanced-settings.html\" target=\"_blank\">Advanced Settings</a> for higher task success rate."
+msgstr "タスクの成功率を挙げるには、<a href=\"https://docs.wpvivid.com/wpvivid-backup-free-advanced-settings.html\" target=\"_blank\">高度な設定</a>を調整してください。"
+
+#: admin/class-wpvivid-admin.php:176
+#: includes/staging/class-wpvivid-staging.php:88
+msgid "Read <a href=\"https://docs.wpvivid.com/troubleshooting-issues-wpvivid-backup-plugin.html\" target=\"_blank\">Troubleshooting page</a> for faster solutions."
+msgstr "迅速な解決には、<a href=\"https://docs.wpvivid.com/troubleshooting-issues-wpvivid-backup-plugin.html\" target=\"_blank\">トラブルシューティング</a>を参照してください。"
+
+#. Description of the plugin
+msgid "Clone or copy WP sites then move or migrate them to new host (new domain), schedule backups, transfer backups to leading remote storage. All in one."
+msgstr "WordPress サイトのクローンやコピー、新しいホスト (新しいドメイン) への移動や移行、バックアップのスケジュール設定、主要なリモートストレージへのバックアップの転送を、すべて1つで行います。"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2529
+msgid "Backup Now"
+msgstr "バックアップ"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2483
+msgid "rename directory"
+msgstr "ディレクトリの変更"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2534
+msgid "This backup can only be deleted manually"
+msgstr "このバックアップは手動でのみ削除可"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2907
+msgid "The settings are only for manual backup, which won't affect schedule settings."
+msgstr "設定は手動バックアップの場合のみに適用され、スケジュール設定には影響しません。"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2930
+msgid "Server Time: "
+msgstr "サーバーの時間: "
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:408
+#: admin/partials/wpvivid-schedule-page-display.php:24
+#: admin/partials/wpvivid-schedule-page-display.php:36
+#: admin/partials/wpvivid-schedule-page-display.php:98
+#: admin/partials/wpvivid-schedule-page-display.php:146
+#: includes/class-wpvivid-migrate.php:1170
+#: includes/class-wpvivid-schedule.php:117
+msgid "Pro feature: learn more"
+msgstr "プロ版の機能を確認する"
+
+#: includes/class-wpvivid-exporter.php:285
+msgid "Missed schedule"
+msgstr "失敗したスケジュール"
+
+#: admin/class-wpvivid-admin.php:1038
+msgid "Schedule"
+msgstr "スケジュール"
+
+#: includes/class-wpvivid-migrate.php:1134
+msgid "1. In order to successfully complete the migration, you'd better deactivate <a href=\"https://wpvivid.com/best-redirect-plugins.html\" target=\"_blank\" style=\"text-decoration: none;\">301 redirect plugin</a>, <a href=\"https://wpvivid.com/8-best-wordpress-firewall-plugins.html\" target=\"_blank\" style=\"text-decoration: none;\">firewall and security plugin</a>, and <a href=\"https://wpvivid.com/best-free-wordpress-caching-plugins.html\" target=\"_blank\" style=\"text-decoration: none;\">caching plugin</a> (if they exist) before transferring website."
+msgstr "1. 移行を正しく完了するには、サイトを転送する前に、<a href=\"https://wpvivid.com/best-redirect-plugins.html\" target=\"_blank\" style=\"text-decoration: none;\">301 リダイレクトプラグイン</a>、<a href=\"https://wpvivid.com/8-best-wordpress-firewall-plugins.html\" target=\"_blank\" style=\"text-decoration: none;\">ファイアウォールとセキュリティプラグイン</a>、<a href=\"https://wpvivid.com/best-free-wordpress-caching-plugins.html\" target=\"_blank\" style=\"text-decoration: none;\">キャッシュプラグイン</a> (もしあれば) を無効化してください。"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:148
+msgid "Click the button to connect to SFTP server and add it to the storage list below."
+msgstr "ボタンをクリックすると、SFTP サーバーに接続し、下のストレージリストに追加します。"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:178
+msgid "Click the button to connect to Amazon S3 storage and add it to the storage list below."
+msgstr "ボタンをクリックすると、Amazon S3ストレージに接続し、下のストレージリストに追加します。"
+
+#: includes/customclass/class-wpvivid-s3compat.php:522
+msgid "Click the button to connect to DigitalOcean Spaces storage and add it to the storage list below."
+msgstr "ボタンをクリックすると、DigitalOcean Spaces ストレージに接続し、下のストレージリストに追加します。"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:158
+msgid "Click the button to connect to FTP server and add it to the storage list below."
+msgstr "ボタンをクリックすると、FTP サーバーに接続し、下のストレージリストに追加します。"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:139
+#: includes/customclass/class-wpvivid-ftpclass.php:240
+msgid "Uncheck this to enable FTP active mode."
+msgstr "オフにして、FTP アクティブモードを有効化する。"
+
+#: admin/partials/wpvivid-settings-page-display.php:108
+msgid "Calculate the size of files, folder and database before backing up"
+msgstr "バックアップ前にファイル、フォルダー、データベースのサイズを算出する"
+
+#: admin/partials/wpvivid-settings-page-display.php:120
+msgid "Merge all the backup files into single package when a backup completes. This will save great disk spaces, though takes longer time. We recommended you check the option especially on sites with insufficient server resources."
+msgstr "バックアップの完了後、すべてのバックアップファイルを1つのパッケージに統合する。時間はかかりますが、大きくディスクスペースを節約します。特にサーバーのリソースが十分でないサイトでは、このオプションをチェックすることをお勧めします。"
+
+#: admin/partials/wpvivid-settings-page-display.php:702
+msgid "<strong>Retrying </strong>%s<strong> times when encountering a time-out error</strong>"
+msgstr "<strong>タイムアウトエラーの場合、</strong>%s<strong>回の再試行</strong>"
+
+#: admin/class-wpvivid-admin.php:1640
+msgid "Ultimate"
+msgstr "フル"
+
+#: admin/partials/wpvivid-settings-page-display.php:340
+msgid "Empty"
+msgstr "空にする"
+
+#: admin/class-wpvivid-admin.php:154
+#: includes/snapshot/class-wpvivid-snapshot.php:1502
+#: includes/staging/class-wpvivid-staging.php:73
+msgid "Current Version: "
+msgstr "現在のバージョン: "

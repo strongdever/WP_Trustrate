@@ -1,0 +1,69 @@
+Log created: 2023-05-19 05:34:43
+Type: backup
+[2023-05-19 05:34:44][notice]Start backing up.
+[2023-05-19 05:34:44][notice]server info fcgi:Off max execution time: 300 wp version:6.2.1 php version:8.1.6 db version:10.4.24 php ini:safe_mode: memory_limit:256M memory_get_usage:41.56 MB memory_get_peak_usage:42.36 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2023-05-19 05:34:44][notice]Prepare to backup backup_db files.
+[2023-05-19 05:34:44][notice]Start exporting database.
+[2023-05-19 05:34:44][notice]Preparing to dump table wp_links
+[2023-05-19 05:34:44][notice]Preparing to dump table wp_term_relationships
+[2023-05-19 05:34:45][notice]Preparing to dump table wp_commentmeta
+[2023-05-19 05:34:45][notice]Preparing to dump table wp_postmeta
+[2023-05-19 05:34:45][notice]Preparing to dump table wp_term_taxonomy
+[2023-05-19 05:34:45][notice]Preparing to dump table wp_termmeta
+[2023-05-19 05:34:45][notice]Preparing to dump table wp_terms
+[2023-05-19 05:34:45][notice]Preparing to dump table wp_usermeta
+[2023-05-19 05:34:46][notice]Preparing to dump table wp_users
+[2023-05-19 05:34:46][notice]Preparing to dump table wp_comments
+[2023-05-19 05:34:46][notice]Preparing to dump table wp_options
+[2023-05-19 05:34:47][notice]Preparing to dump table wp_posts
+[2023-05-19 05:34:48][notice]Exporting database finished.
+[2023-05-19 05:34:48][notice]Start compressing database
+[2023-05-19 05:34:48][notice]Prepare to zip file. file: localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_db.sql
+[2023-05-19 05:34:49][notice]Adding zip files completed.localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_db.part001.zip, filesize: 2.20 MB
+[2023-05-19 05:34:50][notice]Compressing database completed
+[2023-05-19 05:34:50][notice]Backing up backup_db completed.
+[2023-05-19 05:34:50][notice]Prepare to backup backup_themes files.
+[2023-05-19 05:34:53][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_themes.part001.zip index:500
+[2023-05-19 05:35:01][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_themes.part001.zip success. index:500 file size:12.17 MB
+[2023-05-19 05:35:01][notice]Backing up backup_themes completed.
+[2023-05-19 05:35:01][notice]Prepare to backup backup_plugin files.
+[2023-05-19 05:35:01][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_plugin.part001.zip index:500
+[2023-05-19 05:35:02][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_plugin.part001.zip success. index:500 file size:45.29 KB
+[2023-05-19 05:35:02][notice]Backing up backup_plugin completed.
+[2023-05-19 05:35:02][notice]Prepare to backup backup_uploads files.
+[2023-05-19 05:35:02][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_uploads.part001.zip index:500
+[2023-05-19 05:35:02][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_uploads.part001.zip success. index:500 file size:73.05 KB
+[2023-05-19 05:35:02][notice]Backing up backup_uploads completed.
+[2023-05-19 05:35:03][notice]Prepare to backup backup_content files.
+[2023-05-19 05:35:03][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_content.part001.zip index:500
+[2023-05-19 05:35:03][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_content.part001.zip success. index:500 file size:144.00 B
+[2023-05-19 05:35:03][notice]Backing up backup_content completed.
+[2023-05-19 05:35:03][notice]Prepare to backup backup_core files.
+[2023-05-19 05:35:05][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_core.part001.zip index:500
+[2023-05-19 05:35:21][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_core.part001.zip success. index:500 file size:2.24 MB
+[2023-05-19 05:35:21][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_core.part001.zip index:1000
+[2023-05-19 05:35:30][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_core.part001.zip success. index:1000 file size:4.55 MB
+[2023-05-19 05:35:30][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_core.part001.zip index:1500
+[2023-05-19 05:35:35][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_core.part001.zip success. index:1500 file size:5.62 MB
+[2023-05-19 05:35:35][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_core.part001.zip index:2000
+[2023-05-19 05:35:50][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_core.part001.zip success. index:2000 file size:11.09 MB
+[2023-05-19 05:35:50][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_core.part001.zip index:2500
+[2023-05-19 05:36:02][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_core.part001.zip success. index:2500 file size:14.14 MB
+[2023-05-19 05:36:03][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_core.part001.zip index:3000
+[2023-05-19 05:36:07][notice]Compressing zip file:localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_core.part001.zip success. index:3000 file size:14.63 MB
+[2023-05-19 05:36:07][notice]Backing up backup_core completed.
+[2023-05-19 05:36:07][notice]Prepare to backup backup_merge files.
+[2023-05-19 05:36:07][notice]Prepare to zip file. file: localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_db.zip
+[2023-05-19 05:36:07][notice]Adding zip files completed.localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_all.part001.zip, filesize: 1.91 MB
+[2023-05-19 05:36:07][notice]Prepare to zip file. file: localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_themes.zip
+[2023-05-19 05:36:08][notice]Adding zip files completed.localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_all.part001.zip, filesize: 14.01 MB
+[2023-05-19 05:36:08][notice]Prepare to zip file. file: localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_plugin.zip
+[2023-05-19 05:36:09][notice]Adding zip files completed.localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_all.part001.zip, filesize: 14.05 MB
+[2023-05-19 05:36:10][notice]Prepare to zip file. file: localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_uploads.zip
+[2023-05-19 05:36:10][notice]Adding zip files completed.localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_all.part001.zip, filesize: 14.12 MB
+[2023-05-19 05:36:10][notice]Prepare to zip file. file: localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_content.zip
+[2023-05-19 05:36:10][notice]Adding zip files completed.localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_all.part001.zip, filesize: 14.12 MB
+[2023-05-19 05:36:11][notice]Prepare to zip file. file: localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_core.zip
+[2023-05-19 05:36:12][notice]Adding zip files completed.localhost_orb_wpvivid-64670a7345d1c_2023-05-19-05-34_backup_all.part001.zip, filesize: 28.35 MB
+[2023-05-19 05:36:12][notice]Backing up backup_merge completed.
+[2023-05-19 05:36:12][notice]Backup completed.

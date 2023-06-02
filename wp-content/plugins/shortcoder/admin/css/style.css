@@ -1,0 +1,434 @@
+.wp-heading-inline small{
+    vertical-align: super;
+    font-size: 13px;
+    margin: 0 0 0 5px;
+    color: #888;
+}
+
+#sc_name{
+    position: relative;
+}
+#sc_name #post_name{
+    padding: 3px 8px;
+    font-size: 1.7em;
+    line-height: 100%;
+    height: 1.7em;
+    width: 100%;
+    outline: 0;
+    margin: 0 0 3px;
+    background-color: #fff;
+}
+
+.sc_preview_text{
+    background: #f1f1f1;
+}
+.sc_copy .dashicons{
+    margin-top: 1.5px;
+    display: none;
+}
+.sc_copy.copied .dashicons{
+    display: inline-block;
+}
+
+.sc_editor_toolbar{
+    display: inline-block;
+}
+.sc_cm_menu .sc_editor_toolbar > *{
+    margin-right: 5px;
+}
+
+.sc_editor_list {
+    position: relative;
+    display: inline-block;
+}
+.sc_editor_list select {
+    padding: 0 25px 0 35px!important;
+    border-radius: 3px;
+}
+.sc_editor_list:before {
+    font-family: Dashicons;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    font-size: 20px;
+    color: #82878c;
+    line-height: 20px;
+}
+.sc_editor_icon_text:before{
+    content: "\f215";
+}
+.sc_editor_icon_visual:before{
+    content: "\f177";
+}
+.sc_editor_icon_code:before{
+    content: "\f475";
+}
+
+.sc_insert_param .dashicons-plus{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.sc_insert_param .dashicons-arrow-down{
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.sc_params_list{
+    box-shadow: 0 2px 5px -2px rgba(0,0,0,.2);
+    border: 1px solid #dfdfdf;
+    margin: 0;
+    position: absolute;
+    display: none;
+    background: #fff;
+    z-index: 9999;
+}
+.sc_params_list li{
+    position: relative;
+    background: #fff;
+    margin: 0;
+    padding: 10px;
+    width: 200px;
+    border-bottom: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+.sc_params_list li:hover{
+    background: lightyellow;
+}
+.sc_params_list > li{
+    padding-left: 40px;
+}
+.sc_params_list > li:after{
+    position: absolute;
+    font-family: dashicons;
+    content: "\f139";
+    right: 5px;
+    top: 10px;
+}
+.sc_params_list li:last-child{
+    border: 0;
+}
+.sc_params_list li ul{
+    background: #fff;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 100%;
+    box-shadow: 0 2px 5px -2px rgba(0,0,0,.2);
+    border: 1px solid #dfdfdf;
+    z-index: 9999;
+    max-height: 350px;
+    overflow: auto;
+}
+.sc_params_list li:hover ul{
+    display: block;
+}
+
+.sc_params_list .isc_form{
+    cursor: auto;
+    width: 330px;
+}
+.sc_params_list .dashicons {
+    position: absolute;
+    left: 10px;
+    font-size: 15px;
+    top: 13px;
+    color: #555;
+}
+
+.sc_params_form{
+    cursor: auto !important;
+    width: 300px !important;
+}
+.sc_params_form h4:first-child{
+    margin: 0 0 15px 0;
+}
+.sc_params_form p{
+    margin: 5px 0;
+}
+.sc_params_form p.red{
+    color: red;
+}
+.sc_params_form .button {
+    margin: 15px 0 5px 0;
+}
+.sc_params_form a{
+    text-decoration: none !important;
+    line-height: 0;
+    vertical-align: middle;
+}
+.sc_params_form a:hover{
+    opacity: 0.8;
+}
+.sc_params_form a .dashicons{
+    position: static !important;
+}
+
+.sc_cm_menu {
+    margin: 15px 0 10px 0;
+}
+.sc_cm_content{
+    height: 500px;
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.75em;
+}
+.CodeMirror {
+    border: 1px solid #e5e5e5;
+    line-height: 1.5em;
+    font-size: 14px;
+}
+
+#sc_mb_settings .form-table th{
+    width: 300px;
+}
+
+/* Modifying post edit page */
+#edit-slug-buttons{
+    margin-left: 6px;
+}
+#edit-slug-box{
+    margin-bottom: 1.5em;
+}
+
+#misc-publishing-actions #visibility{
+    display: none;
+}
+#misc-publishing-actions .misc-pub-post-status{
+    display: none;
+}
+#misc-publishing-actions a{
+    display: none;
+}
+.misc-pub-curtime{
+    margin-bottom: 10px;
+}
+
+.sc_settings_link{
+    float: right;
+}
+
+/* Shortcode list page */
+.sc_copy_list_wrap{
+    position: relative;
+}
+.sc_copy_list_wrap .sc_copy_list{
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+.sc_copy_list_wrap input.widefat{
+    border: none;
+}
+.sc_copy_text.copied{
+    background-color: lightgreen;
+}
+.sc_copy_list{
+    display: none;
+}
+.sc_content_list{
+    padding: 10px;
+    max-height: 300px;
+    overflow: auto;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+.sc_content_list::-webkit-scrollbar {
+    width: 7.5px;
+    height: 7.5px;
+}
+.sc_content_list::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.sc_content_list::-webkit-scrollbar-thumb{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+#the-list tr.type-shortcoder:hover a.sc_copy_list{
+    display: inline-block;
+}
+#the-list tr.type-shortcoder td.column-shortcode{
+    vertical-align: middle;
+}
+
+
+/* Codemirror */
+.cm-sc_param{
+    font-weight: bold;
+}
+
+
+/** Changelog **/
+.sc_changelog{
+    background: rgba(70, 50, 50, 0.3);
+    position: fixed;
+    top: 32px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.sc_changelog main{
+    margin: 0 auto;
+    background: #fff;
+    width: 50%;
+    padding: 25px;
+    z-index: 99999;
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+}
+.sc_changelog article{
+    height: 100%;
+    overflow: auto;
+    padding: 0 15px;
+}
+.sc_changelog footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 25px;
+    border-top: 1px solid #dfdfdf;
+    text-align: center;
+}
+.sc_changelog h2 {
+    font-size: 2em;
+    font-weight: normal;
+}
+.sc_changelog h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+.sc_changelog p, .sc_changelog ul{
+    font-size: 1.25em;
+    line-height: 1.5;
+}
+.sc_changelog ul{
+    list-style: disc;
+    padding-left: 1.5em;
+}
+
+/** PRO - Top link **/
+.pro_top_link{
+    float: left;
+    position: relative;
+}
+#screen-meta-links .pro_top_link a.show-settings{
+    background: #fff !important;
+}
+.pro_top_link a:after{
+    display: none !important;
+}
+.pro_top_link .dashicons {
+    font-size: 14px;
+    margin: 6px 5px 0 0;
+    height: 14px;
+    color: #ff8c29;
+}
+
+/** Feedback **/
+.feedback ul {
+    margin: 5px 0;
+}
+.feedback ul li{
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+.feedback ul li:last-child{
+    border-bottom: none;
+}
+.feedback li .dashicons {
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    margin: 3px 5px 0 0;
+}
+.feedback a{
+    text-decoration: none;
+}
+.feedback a:hover{
+    text-decoration: underline;
+}
+.feedback a:hover .dashicons{
+    text-decoration: none;
+}
+.feedback .button{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.feedback .button:last-child{
+    margin-bottom: 0;
+}
+.feedback .button .dashicons{
+    margin: 5px 5px 0 0;
+}
+.feedback .button:hover{
+    text-decoration: none;
+}
+.feedback > *:last-child{
+    margin-bottom: 0;
+}
+.feedback h3 {
+    font-size: 1.125em;
+    margin: 1em 0 1em 0.5em;
+}
+
+.stars {
+    display: inline-flex;
+    line-height: 1;
+    margin-left: 5px;
+}
+.stars .dashicons{
+    font-size: 13px;
+    width: 13px;
+    margin-top: 4px;
+    height: 13px;
+    color: #FF9800;
+}
+
+.subscribe_form {
+    display: flex;
+    padding: 15px;
+    background: #f7f7f7;
+    border-radius: 5px;
+    margin-top: 10px;
+    flex-direction: column;
+}
+.subscribe_form .subscribe_email_box {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.subscribe_form .subscribe_btn .dashicons{
+    font-size: 16px;
+    width: 16px;
+    margin: 7px 3px 0 0;
+}
+.subscribe_confirm{
+    display: none;
+    margin: 0 0 10px 0;
+    color: green;
+}
+
+/** Import/Export link **/
+.ie_top_link{
+    float: left;
+    margin: 0 0 0 6px;
+}
+#import-export-tab{
+    margin: 0;
+}
+
+/** Footer **/
+.footer_thanks{
+    font-style: italic;
+}
+.footer_thanks a{
+    text-decoration: none;
+}
+.footer_thanks a:hover{
+    text-decoration: underline;
+}

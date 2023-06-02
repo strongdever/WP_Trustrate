@@ -1,0 +1,116 @@
+@charset "utf-8";
+#article .fullScreen{
+margin: 0 auto;
+}
+#article .fullScreen *{
+    margin:0;
+    padding:0;
+}
+#article .fullScreen #tab1{
+    height:100%;
+    width:100%!important;
+}
+#article .fullScreen #pht-area .pht-right{
+display:none;
+}
+#article .fullScreen .comment{
+display:none;
+}
+#article .fullScreen #gallery{
+    max-height:3000px!important;
+    max-width:5000px!important;
+}
+#article  .fullScreen #pht-area{
+margin-top:0px;
+}
+#article .fullScreen .section{
+background:#000;
+box-shadow:none;
+border:none;
+height:100%;
+}
+#article .fullScreen #pht-area .pht-left{
+float: none;
+overflow: hidden;
+margin: 0 auto;
+border: none;
+text-align: center;
+}
+#article .fullScreen #pht-area .pht p.main-img {
+display: block;
+     width:1000px;
+     height:100%;
+     display:table-cell;
+     text-align:center;
+     vertical-align:middle;
+     layout-grid-line:900px;
+}
+#article .fullScreen #pht-area .pht p.main-img img{
+vertical-align:middle;
+width: auto;
+height: auto;
+}
+#article .fullScreen #pht-area .pht p.grass, #pht-area .build-pht p.grass{
+display:none;
+}
+#ctrlHide{
+width: 100%;
+height: 100%;
+position: fixed;
+z-index: 998;
+top: 0;
+left: 0;
+}
+#fullscreenNext{
+    position:fixed;
+    right: 0px;
+    height:100%;
+    width:50%;
+    text-align:right;
+    z-index:999;
+    cursor:pointer;
+}
+#fullscreenPrev{
+    position:fixed;
+    left:0;
+    height:100%;
+    width:50%;
+    text-align:left;
+    z-index:999;
+    cursor:pointer;
+}
+#fullscreenNext img{
+    top:50%;
+    margin-top:-45px;
+    position: relative;
+}
+#fullscreenPrev img{
+    top:50%;
+    margin-top:-45px;
+    position:absolute;
+}
+#fullscreenClose {
+height: 40px;
+padding-top: 24px!important;
+padding-left: 20px!important;
+width: 183px;
+right: 0;
+top: 0;
+background-size: 15%;
+background-position: 154px;
+}
+#fullscreenClose:hover {
+background-size: 16%;
+background-position: 153px;
+}
+#fullscreen{
+margin: 0!important;
+padding: 10px;
+background-size: 15%;
+background-position: 125px;
+cursor: pointer!important;
+}
+#fullscreen:hover{
+background-size: 17%;
+background-position: 124px;
+}

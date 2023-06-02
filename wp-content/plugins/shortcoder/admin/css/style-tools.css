@@ -1,0 +1,59 @@
+#sci_bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999999;
+}
+
+#sci_popup {
+    position: fixed;
+    z-index: 999999;
+    background: #fff;
+    top: 50px;
+    bottom: 50px;
+    left: 25%;
+    right: 25%;
+    border: 1px solid #dfdfdf;
+    box-shadow: 0 0 9px -4px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+#sci_popup iframe {
+    height: 100%;
+    background: #fff;
+}
+
+#sci_popup header {
+    position: relative;
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+}
+#sci_title{
+    background: url(../images/shortcoder.svg) no-repeat;
+    background-size: 16px;
+    padding-left: 28px;
+    background-position: left center;
+}
+#sci_close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    border-left: 1px solid #eee;
+    cursor: pointer;
+}
+#sci_close:hover{
+    background: #fafafa;
+}
+#sci_close > .dashicons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -10px 0 0 -10px;
+}

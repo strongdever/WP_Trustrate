@@ -2,11 +2,12 @@
 
 /* outline
 ------------------------------*/
-#contents {
+.bdtop #contents {
     width: 100%;
     padding-bottom: 0;
     overflow: hidden;
 }
+
 .l-page {
     width: 100%;
     margin: 0 auto;
@@ -86,6 +87,18 @@
     [class*="__morebt"] a:hover {
         box-shadow: none;
     }
+
+/* accessmap
+------------------------------*/
+
+.accessmap  div.contInner{
+    width: 100%;
+    margin: 0;
+}
+
+.accessmap #contents{
+    overflow: inherit;
+}
 
 /* mainView
 ------------------------------*/

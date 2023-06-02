@@ -25,22 +25,16 @@
     <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/style.css" media="all" type="text/css" />
     <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/slick.css" media="all" type="text/css" />
     <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/jquery.mCustomScrollbar.css" media="all" type="text/css" />
-    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/accessmap.css" media="" type="text/css" />
-    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/jquery.fancybox.css" media="all" type="text/css" />
-    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/company.css" media="all" type="text/css" />
-    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/bknlist.css" media="" type="text/css" />
-    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/cms.css" media="all" type="text/css" />
-    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/categorytaglist.css" media="all" type="text/css" />
-    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/validationEngine.jquery.css" media="all" type="text/css" />
-    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/contact_common.css" media="all" type="text/css" />
-    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/assets/css/assessment.css" media="all" type="text/css" />
+    <!-- <style type="text/css" media="screen"> -->
     <link rel="canonical" href="https://www.trustrate.co.jp/" />
     
     <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/jquery-1.8.2.min.js"></script>
     <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/imgLiquid-min.js"></script>
     <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/common_library.js"></script>
+    <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/jquery.fancybox.js"></script>
     <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/jquerypngfix.js"></script>
     <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/staff_detail.js"></script> 
+    <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/assessment.js"></script>
     <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/jquery.validationEngine.js"></script>
     <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/jquery.validationEngine-ja.js"></script>  
     <script type="text/javascript">
@@ -58,6 +52,17 @@
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-P23JBD7');
     </script>
+
+    <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/common.js"></script>
+    <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/jquery.mCustomScrollbar.js"></script>
+    <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/jquery.page-scroller-306.js"></script>
+    <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/top_custom.js"></script>
+    <script type="text/javascript" src="<?php echo get_theme_file_uri(); ?>/assets/js/contact.js"></script>    
+
 </head>
 <?php
 while ( have_posts() ) :
